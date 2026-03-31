@@ -49,7 +49,7 @@ const GetInTouch = () => {
                             className="
                 bg-primary 
                 w-full
-                h-[250px] sm:h-[300px] md:h-[400px] lg:h-[600px]
+                h-[250px] sm:h-[300px] md:h-[400px] lg:h-[650px]
                 lg:flex items-center justify-center hidden
               "
                             style={{ borderBottomLeftRadius: '85%' }}
