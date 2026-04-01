@@ -11,7 +11,7 @@ const Testimonial = () => {
 
             {/* HEADER */}
             <div className="flex justify-between items-center mb-10">
-                <h2 className="text-2xl sm:text-3xl font-bold text-[#0C0047]">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0C0047]">
                     POSolutions is loved by users
                 </h2>
 

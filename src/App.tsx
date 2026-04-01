@@ -1,22 +1,19 @@
-import Navbar from "./components/layout/Navbar"
-import Expertise from "./components/sections/Expertise"
-import Footer from "./components/sections/Footer"
-import GetInTouch from "./components/sections/GetInTouch"
-import Hero from "./components/sections/Hero"
-import Partners from "./components/sections/Partners"
-import Testimonial from "./components/sections/Testimonial"
+import { Routes, Route } from "react-router-dom";
 
+import Navbar from "./components/layout/Navbar"
+import Footer from "./components/sections/Footer"
+import Home from "./components/screen/Home";
+import OwnerHome from "./components/screen/OwnerHome";
 
 function App() {
 
   return (
     <div className="min-h-screen">
       <Navbar />
-      <Hero />
-      <Expertise />
-      <Partners />
-      <GetInTouch />
-      <Testimonial />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/owner" element={<OwnerHome />} />
+      </Routes>
       <Footer />
     </div>
   )

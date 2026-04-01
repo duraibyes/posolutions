@@ -15,7 +15,7 @@ const GetInTouch = () => {
 
                     {/* LEFT CONTENT */}
                     <div className="w-full lg:w-3/4 text-center lg:text-left px-4 sm:px-8 lg:px-16 sm:mx-16 mx-6">
-                        <h2 className="text-2xl sm:text-3xl font-bold text-[#0C0047] mb-4">
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0C0047] mb-4">
                             Get in touch with us
                         </h2>
 

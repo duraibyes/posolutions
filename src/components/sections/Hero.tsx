@@ -2,8 +2,11 @@ import HomeOwnerImage from "../../../public/images/home_owner_site.png";
 import CommercialImage from "../../../public/images/commercial_site.png";
 import PrimaryButton from "../button/PrimaryButton";
 import SecondaryButton from "../button/SecondaryButton";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+
+    const navigate = useNavigate();
     return (
         <section
             className="
@@ -132,7 +135,7 @@ const Hero = () => {
                                 through your secure homeowner portal.
                             </p>
                             <div className="mb-4 w-full">
-                                <PrimaryButton label="Explore Our Services" onClick={() => { }} />
+                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/owner')} />
                             </div>
                         </div>
 

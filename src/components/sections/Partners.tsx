@@ -22,7 +22,7 @@ const Partners = () => {
                 <h2
                     className="
                     mb-8
-                    text-3xl font-bold text-center text-[#0C0047]
+                    text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center text-[#0C0047]
                   "
                 >
                     Partners We Work With

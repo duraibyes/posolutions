@@ -7,7 +7,7 @@ const Expertise = () => {
     return (
         <section className="max-w-7xl mx-auto px-4 md:px-4 xl:px-2 py-6 my-16 flex flex-col items-center justify-center">
             <div>
-                <h2 className="text-3xl font-bold text-center mb-8 text-[#0C0047]">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-[#0C0047]">
                     Our Expertise
                 </h2>
                 <p className="text-[#969696] text-center">Reliable property and community management services tailored to your needs.</p>

@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
+import { NavLink } from "react-router-dom";
 import { Menu, X } from 'lucide-react';
+
 import Logo from "../../../public/images/poslogo.png";
 
 const Navbar = () => {
@@ -16,10 +18,10 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: 'Home', href: '#home' },
-        { name: 'Services', href: '#services' },
-        { name: 'About', href: '#about' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Home', href: '/' },
+        { name: 'Services', href: '/services' },
+        { name: 'About', href: '/about' },
+        { name: 'Contact', href: '/contact' },
     ];
 
     return (
@@ -37,13 +39,16 @@ const Navbar = () => {
 
                     <div className="hidden lg:flex items-center space-x-8">
                         {navLinks.map((link) => (
-                            <a
+                            <NavLink
                                 key={link.name}
-                                href={link.href}
-                                className="text-white text-sm hover:text-teal-400 transition-colors duration-200"
+                                to={link.href}
+                                className={({ isActive }) =>
+                                    `text-white text-sm transition-colors duration-200 ${isActive ? "text-teal-400 font-semibold" : "hover:text-teal-400"
+                                    }`
+                                }
                             >
                                 {link.name}
-                            </a>
+                            </NavLink>
                         ))}
                     </div>
 

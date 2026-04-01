@@ -8,9 +8,9 @@ const SecondaryButton = ({ label, onClick }: SecondaryButtonProps) => {
         <button
             onClick={onClick}
             className="
-            w-full
-            px-4 py-2
-            text-lg text-[#0C7489]
+            w-full sm:w-fit
+            px-6 py-2 font-semibold
+            text-md text-[#0C7489]
             bg-white
             rounded-md
             hover:bg-[#F0F0F0]
