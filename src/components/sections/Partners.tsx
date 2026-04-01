@@ -49,6 +49,7 @@ const Partners = () => {
                     flex flex-col
                     items-center justify-center
                     border border-[#E0E0E0] rounded-lg p-4
+                    hover:border-primary hover:shadow-lg transition duration-300
                   "
                 >
                     <img src={Partner4} alt="Asset Management" />
@@ -58,6 +59,7 @@ const Partners = () => {
                     flex flex-col
                     items-center justify-center
                      border border-[#E0E0E0] rounded-lg p-4
+                      hover:border-primary hover:shadow-lg transition duration-300
                   "
                 >
                     <img src={Partner3} alt="Financial Recovery Services" />
@@ -67,6 +69,7 @@ const Partners = () => {
                     flex flex-col
                     items-center justify-center
                      border border-[#E0E0E0] rounded-lg p-4
+                      hover:border-primary hover:shadow-lg transition duration-300
                   "
                 >
                     <img src={Partner2} alt="Association Management " />
@@ -76,6 +79,7 @@ const Partners = () => {
                     flex flex-col
                     items-center justify-center
                      border border-[#E0E0E0] rounded-lg p-4
+                      hover:border-primary hover:shadow-lg transition duration-300
                   "
                 >
                     <img src={Partner1} alt="Real Estate Brokerage Services " />
@@ -85,6 +89,7 @@ const Partners = () => {
                     flex flex-col
                     items-center justify-center
                      border border-[#E0E0E0] rounded-lg p-4
+                      hover:border-primary hover:shadow-lg transition duration-300
                   "
                 >
                     <img src={Partner5} alt="Real Estate Brokerage Services " />

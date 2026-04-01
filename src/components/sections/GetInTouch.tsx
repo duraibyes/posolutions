@@ -31,7 +31,7 @@ const GetInTouch = () => {
                                 <img src={Mask3} className="w-8 h-8 sm:w-10 sm:h-10 rounded-full -ml-3" />
                                 <img src={Mask4} className="w-8 h-8 sm:w-10 sm:h-10 rounded-full -ml-3" />
 
-                                <p className="ml-3 text-xs sm:text-sm text-[#343434] font-semibold whitespace-nowrap">
+                                <p className="ml-3 text-xs sm:text-sm text-[#343434] font-semibold ">
                                     More than 10,000 people have tried
                                 </p>
 

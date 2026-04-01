@@ -13,6 +13,8 @@ const PrimaryButton = ({ label, onClick }: Props) => {
             text-lg text-white
             bg-primary
             rounded-md
+             hover:bg-[#258181]
+            transition-colors duration-300
           "
         >
             {label}

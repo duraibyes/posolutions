@@ -19,19 +19,19 @@ const Expertise = () => {
     gap-8 
     mt-10">
                 <div className="flex flex-col items-center justify-center" >
-                    <img src={Expert4} alt="Asset Management" />
+                    <img src={Expert4} alt="Asset Management" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#343434] text-center font-bold mt-4">Asset Management</p>
                 </div>
                 <div className="flex flex-col items-center justify-center" >
-                    <img src={Expert3} alt="Financial Recovery Services" />
+                    <img src={Expert3} alt="Financial Recovery Services" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#343434] text-center font-bold mt-4"> 	Financial Recovery Services </p>
                 </div>
                 <div className="flex flex-col items-center justify-center" >
-                    <img src={Expert2} alt="Association Management " />
+                    <img src={Expert2} alt="Association Management " className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#343434] text-center font-bold mt-4"> Association Management </p>
                 </div>
                 <div className="flex flex-col items-center justify-center" >
-                    <img src={Expert1} alt="Real Estate Brokerage Services " />
+                    <img src={Expert1} alt="Real Estate Brokerage Services " className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#343434] text-center font-bold mt-4"> Real Estate Brokerage Services </p>
                 </div>
             </div>

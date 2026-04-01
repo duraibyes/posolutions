@@ -13,6 +13,8 @@ const SecondaryButton = ({ label, onClick }: SecondaryButtonProps) => {
             text-lg text-[#0C7489]
             bg-white
             rounded-md
+            hover:bg-[#F0F0F0]
+            transition-colors duration-300
           "
         >
             {label}
