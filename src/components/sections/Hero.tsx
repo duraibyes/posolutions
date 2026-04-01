@@ -2,6 +2,7 @@ import HomeOwnerImage from "../../../public/images/home_owner_site.png";
 import CommercialImage from "../../../public/images/commercial_site.png";
 import PrimaryButton from "../button/PrimaryButton";
 import { useNavigate } from "react-router-dom";
+import ImageWithSkeleton from "../common/ImageWithSkeleton";
 
 const Hero = () => {
 
@@ -115,12 +116,10 @@ const Hero = () => {
                                 Home Owners
                             </h2>
 
-                            <img
+                            <ImageWithSkeleton
                                 src={HomeOwnerImage}
-                                className="
-                                mb-4
-                                rounded-lg
-                              "
+                                alt="Home Owner"
+                                className="mb-4 h-40"
                             />
 
                             <p
@@ -159,12 +158,10 @@ const Hero = () => {
                                 Commercial Owners
                             </h2>
 
-                            <img
+                            <ImageWithSkeleton
                                 src={CommercialImage}
-                                className="
-                                mb-4
-                                rounded-lg
-                              "
+                                alt="Commercial Owner"
+                                className="mb-4 h-40"
                             />
 
                             <p
