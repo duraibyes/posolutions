@@ -1,17 +1,17 @@
 import { Check } from 'lucide-react'
 
 import ImageWithFallback from '../../../../public/images/commercial/ImageWithFallback.png'
+import ImageWithSkeleton from '../../common/ImageWithSkeleton'
 
 const CommercialBenefitSection = () => {
     return (
         <section className="max-w-7xl mx-auto px-4 py-12 my-12">
             <div className="grid grid-cols-1 sm:grid-cols-2  gap-6 items-center">
                 <div className="w-full">
-                    <img
-                        src={ImageWithFallback} // replace with your image
+                    <ImageWithSkeleton
+                        src={ImageWithFallback}
                         alt="Family"
-                        className="w-full h-[300px] sm:h-[400px] lg:h-full object-cover rounded-2xl"
-                    />
+                        className="w-full h-[300px] sm:h-[400px] lg:h-full object-cover rounded-2xl" />
                 </div>
                 <div>
 

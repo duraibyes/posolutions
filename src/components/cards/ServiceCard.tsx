@@ -1,4 +1,5 @@
 import { services } from "../../utils/services"
+import ImageWithSkeleton from "../common/ImageWithSkeleton"
 
 const ServiceCard = () => {
     return (
@@ -16,10 +17,11 @@ const ServiceCard = () => {
 
                 {/* IMAGE */}
                 <div className="rounded-xl overflow-hidden mb-4">
-                    <img
+
+                    <ImageWithSkeleton
                         src={service.image}
                         alt={service.title}
-                        className="w-full h-48 object-cover"
+                        className="mb-4 h-50"
                     />
                 </div>
 
