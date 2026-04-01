@@ -1,7 +1,6 @@
 import HomeOwnerImage from "../../../public/images/home_owner_site.png";
 import CommercialImage from "../../../public/images/commercial_site.png";
 import PrimaryButton from "../button/PrimaryButton";
-import SecondaryButton from "../button/SecondaryButton";
 import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
