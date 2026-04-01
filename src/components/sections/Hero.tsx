@@ -178,9 +178,22 @@ const Hero = () => {
                                 Trusted management services for associations, commercial
                                 property owners, and government agencies.
                             </p>
-                            <div className="mb-4 w-full">
+                            <div className="mb-4 w-full text-center">
 
-                                <SecondaryButton label="Explore Our Services" onClick={() => { }} />
+                                <button
+                                    onClick={() => navigate('/commercial-owner')}
+                                    className="
+            w-full
+            px-6 py-2 font-semibold
+            text-lg text-[#0C7489]
+            bg-white
+            rounded-md
+            hover:bg-[#F0F0F0]
+            transition-colors duration-300
+          "
+                                >
+                                    Explore Our Services
+                                </button>
                             </div>
 
                         </div>
