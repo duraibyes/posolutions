@@ -48,6 +48,7 @@ const Hero = () => {
                         max-w-5xl
                         mx-auto
                         text-center
+                        mb-8
                       "
                     >
                         <h1
@@ -65,7 +66,7 @@ const Hero = () => {
                         <p
                             className="
                             max-w-3xl
-                            mt-10 mx-auto
+                            my-10 mx-auto
                             text-white/90 text-sm
                             sm:text-base
                             md:text-lg
@@ -145,7 +146,7 @@ const Hero = () => {
                             rounded-2xl
                             flex flex-col  items-center justify-center
                             shadow-2xl shadow-md
-                            
+                            border border-white
                             md:rounded-none md:rounded-r-2xl md:border-2 md:border-white md:shadow-lg
                           "
                         >

@@ -9,7 +9,7 @@ const PrimaryButton = ({ label, onClick }: Props) => {
             onClick={onClick}
             className="
             w-full
-            px-4 py-2
+            px-4 py-3
             text-lg text-white
             bg-primary
             rounded-md

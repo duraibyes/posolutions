@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom"
 import ServiceCard from "../cards/ServiceCard"
 
 const Services = () => {
+    const navigate = useNavigate();
     return (
         <section className="max-w-7xl mx-auto px-4 py-12 my-12">
 
@@ -14,7 +16,9 @@ const Services = () => {
                     </h2>
                 </div>
 
-                <button className="text-[#0E6E8B] font-medium flex items-center gap-2 hover:gap-3 transition-all">
+                <button
+                    onClick={() => navigate('/services')}
+                    className="text-[#0E6E8B] font-medium flex items-center gap-2 hover:gap-3 transition-all">
                     View All Services →
                 </button>
             </div>

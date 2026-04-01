@@ -4,9 +4,10 @@ type Props = {
     src: string;
     alt?: string;
     className?: string;
+    radius?: boolean;
 };
 
-const ImageWithSkeleton = ({ src, alt, className }: Props) => {
+const ImageWithSkeleton = ({ src, alt, className, radius = false }: Props) => {
     const [loaded, setLoaded] = useState(false);
 
     return (
@@ -22,7 +23,7 @@ const ImageWithSkeleton = ({ src, alt, className }: Props) => {
                 src={src}
                 alt={alt}
                 onLoad={() => setLoaded(true)}
-                className={`w-full h-full object-cover rounded-lg transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"
+                className={`w-full h-full object-cover ${radius ? "rounded-lg" : ""} transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"
                     }`}
             />
         </div>
