@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { Menu, X } from 'lucide-react';
 
 import Logo from "../../../public/images/poslogo.png";
@@ -7,6 +7,7 @@ import Logo from "../../../public/images/poslogo.png";
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -53,7 +54,9 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex items-center gap-4">
-                        <button className="w-full text-sm px-4 py-2 border border-white text-white rounded-md hover:bg-white hover:text-teal-600 transition font-medium whitespace-nowrap">
+                        <button
+                            onClick={() => navigate('request-proposal')}
+                            className="w-full text-sm px-4 py-2 border border-white text-white rounded-md hover:bg-white hover:text-teal-600 transition font-medium whitespace-nowrap">
                             Request Proposal
                         </button>
 
@@ -85,7 +88,9 @@ const Navbar = () => {
                             </a>
                         ))}
                         <div className="space-y-3 pt-4">
-                            <button className="w-full text-sm px-6 py-3 border-2 border-white text-white rounded hover:bg-white hover:text-teal-600 transition-all duration-200 font-medium">
+                            <button
+                                onClick={() => { navigate('request-proposal'); setIsMobileMenuOpen(false); }}
+                                className="w-full text-sm px-6 py-3 border-2 border-white text-white rounded hover:bg-white hover:text-teal-600 transition-all duration-200 font-medium">
                                 Request Proposal
                             </button>
                             <button className="w-full text-sm px-6 py-3 bg-white text-teal-600 rounded hover:bg-teal-50 transition-all duration-200 font-medium">

@@ -32,7 +32,8 @@ const HeroSection = ({
             <div className="relative z-10 flex flex-col
           min-h-[90vh] sm:min-h-screen
           px-4 sm:px-6 lg:px-8
-          pt-24 sm:pt-28 md:pt-32">
+          pt-24 sm:pt-28 md:pt-32
+          pb-24 sm:pb-28 md:pb-32   ">
                 {content}
             </div>
 

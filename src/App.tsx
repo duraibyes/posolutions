@@ -8,6 +8,7 @@ import CommercialOwner from "./components/screen/CommercialOwner";
 import Services from "./components/screen/Services";
 import About from "./components/screen/About";
 import ContactUs from "./components/screen/ContactUs";
+import RequestProposal from "./components/screen/RequestProposal";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/request-proposal" element={<RequestProposal />} />
       </Routes>
       <Footer />
     </div>
