@@ -1,4 +1,4 @@
-import Logo from "../../../public/images/pos_logo-1.png";
+import Logo from "../../../public/images/POSolutions_logo-prod.png";
 import FooterImg1 from "../../../public/images/footer-1.png";
 import FooterImg2 from "../../../public/images/footer-2.png";
 import FooterImg3 from "../../../public/images/footer-3.png";
@@ -9,21 +9,18 @@ const Footer = () => {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-                {/* GRID */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 py-4 lg:grid-cols-4 gap-10">
 
-                    {/* LEFT - LOGO + TEXT */}
                     <div className="text-center sm:text-left flex flex-col justify-center ">
                         <img src={Logo} alt="logo" className="mb-4 mx-auto sm:mx-0" />
 
-                        <p className="text-gray-600 leading-relaxed">
+                        <p className="text-gray-600 leading-relaxed ml-4 my-4">
                             Managing Communities.
                             <br />
                             Supporting Property Success.
                         </p>
                     </div>
 
-                    {/* SERVICES */}
                     <div className=" flex flex-col justify-center  text-center sm:text-left">
                         <h3 className="font-semibold text-lg mb-4 text-gray-800">
                             Our Services
@@ -37,7 +34,6 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* SUPPORT */}
                     <div className="flex flex-col justify-center text-center sm:text-left w-full lg:w-[120%]">
                         <h3 className="font-semibold text-lg mb-4 text-gray-800">
                             Get Support
@@ -53,10 +49,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* SOCIAL */}
                     <div className="text-center sm:text-left lg:text-right">
-
-
                         <ul className="space-y-3 text-gray-700">
                             <li className="hover:text-primary cursor-pointer">
                                 <img src={FooterImg1} alt="social" className="inline-block mr-2" />
@@ -72,7 +65,6 @@ const Footer = () => {
 
                 </div>
 
-                {/* BOTTOM */}
                 <div className="text-center text-gray-500 text-sm mt-10 border-t pt-6">
                     ©2026 POSolutions. All right reserved
                 </div>
