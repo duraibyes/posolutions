@@ -9,6 +9,8 @@ import Services from "./components/screen/Services";
 import About from "./components/screen/About";
 import ContactUs from "./components/screen/ContactUs";
 import RequestProposal from "./components/screen/RequestProposal";
+import AssetManagement from "./components/screen/AssetManagement";
+import FinancialServices from "./components/screen/FinancialServices";
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/request-proposal" element={<RequestProposal />} />
+        <Route path="/asset-management" element={<AssetManagement />} />
+        <Route path="/financial-recovery-services" element={<FinancialServices />} />
       </Routes>
       <Footer />
     </div>

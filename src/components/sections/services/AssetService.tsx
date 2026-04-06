@@ -1,8 +1,10 @@
 import { Check } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import ImageWithSkeleton from "../../common/ImageWithSkeleton"
 import OurServicesImg from "../../../../public/images/services/asset_service.png";
 
 const AssetService = () => {
+    const navigate = useNavigate();
     return (
         <section className="max-w-7xl mx-auto px-4 py-12 my-12">
 
@@ -52,7 +54,9 @@ const AssetService = () => {
                     {/* BUTTONS */}
                     <div className="flex flex-col sm:flex-row gap-4">
 
-                        <button className="w-full sm:w-auto
+                        <button
+                            onClick={() => navigate('/asset-management')}
+                            className="w-full sm:w-auto
                                             px-6 py-3
                                             rounded-md
                                             text-white

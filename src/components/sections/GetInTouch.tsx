@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import CityView from "../../../public/images/city_view.png";
 import Mask1 from "../../../public/images/Mask.png";
 import Mask2 from "../../../public/images/Mask1.png";
@@ -6,6 +7,8 @@ import Mask4 from "../../../public/images/Mask4.png";
 import PrimaryButton from "../button/PrimaryButton";
 
 const GetInTouch = () => {
+
+    const navigate = useNavigate();
     return (
         <div className="bg-[#F2F2FF] py-12 lg:py-0">
 
@@ -39,7 +42,7 @@ const GetInTouch = () => {
                         </div>
 
                         <div className="flex justify-center lg:justify-start my-4">
-                            <PrimaryButton label="Request Proposal" />
+                            <PrimaryButton isWidthFull={false} label="Request Proposal" onClick={() => navigate('/request-proposal')} />
                         </div>
                     </div>
 

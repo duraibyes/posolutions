@@ -1,9 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import Logo from "../../../public/images/POSolutions_logo-prod.png";
 import FooterImg1 from "../../../public/images/footer-1.png";
 import FooterImg2 from "../../../public/images/footer-2.png";
 import FooterImg3 from "../../../public/images/footer-3.png";
 
 const Footer = () => {
+
+    const navigate = useNavigate();
+
     return (
         <footer className="bg-[#F7F7F7] mt-16">
 
@@ -27,10 +31,10 @@ const Footer = () => {
                         </h3>
 
                         <ul className="space-y-2 text-gray-600">
-                            <li>Association Management</li>
-                            <li>Financial Recovery</li>
-                            <li>Real Estate Brokerage Services</li>
-                            <li>Asset Management</li>
+                            <li className="hover:text-primary cursor-pointer" onClick={() => navigate('/association-management')}>Association Management</li>
+                            <li className="hover:text-primary cursor-pointer" onClick={() => navigate('/financial-recovery-services')}>Financial Recovery</li>
+                            <li className="hover:text-primary cursor-pointer" onClick={() => navigate('/real-estate-brokerage')}>Real Estate Brokerage Services</li>
+                            <li className="hover:text-primary cursor-pointer" onClick={() => navigate('/asset-management')}>Asset Management</li>
                         </ul>
                     </div>
 
@@ -42,7 +46,7 @@ const Footer = () => {
                         <ul className="space-y-2 text-gray-600">
                             <li>Monday – Thursday | 8:00am – 5:00pm</li>
                             <li>Friday | 8:00am – 3:00pm</li>
-                            <li className="font-semibold text-gray-800">
+                            <li className="font-semibold text-gray-800 pt-4">
                                 MEETINGS BY APPOINTMENT ONLY
                             </li>
                             <li>+1 678-715-1430</li>
