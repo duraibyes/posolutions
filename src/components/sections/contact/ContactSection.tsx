@@ -32,12 +32,12 @@ const ContactSection = () => {
                             </h3>
                         </div>
 
-                        <div className="flex justify-between text-[#4A5565] text-sm mb-2">
+                        <div className="flex justify-between text-[#4A5565] text-sm mb-2 ml-0 sm:ml-[35px]">
                             <span>Monday - Thursday:</span>
                             <span>9:00 AM - 6:00 PM</span>
                         </div>
 
-                        <div className="flex justify-between text-[#4A5565] text-sm">
+                        <div className="flex justify-between text-[#4A5565] text-sm ml-0 sm:ml-[35px]">
                             <span>Friday:</span>
                             <span>9:00 AM - 6:00 PM</span>
                         </div>
@@ -53,7 +53,7 @@ const ContactSection = () => {
                             For urgent matters, please call our 24/7 emergency line:
                         </p>
 
-                        <p className="text-[#0C7489] font-semibold text-lg">
+                        <p className="text-[#0C7489] font-bold text-lg">
                             +1 678-715-1430
                         </p>
                     </div>

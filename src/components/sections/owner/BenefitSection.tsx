@@ -1,8 +1,10 @@
 import { Check } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import ImageWithFallback from "../../../../public/images/owner/ImageWithFallback.png";
 import ImageWithSkeleton from "../../common/ImageWithSkeleton";
 
 const BenefitSection = () => {
+    const navigate = useNavigate();
     return (
         <section className="max-w-7xl mx-auto px-4 py-12 my-12">
             <div className="grid grid-cols-1 sm:grid-cols-2  gap-6 items-center">
@@ -44,7 +46,7 @@ const BenefitSection = () => {
                             "Confidence that your property is well managed and maintained.",
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-3">
-                                <div className="w-6 h-6 flex items-center justify-center rounded-full bg-teal-100 text-teal-600">
+                                <div className="w-6 h-6 flex items-center justify-center rounded-full bg-teal-100 text-[#0E6E8B]">
                                     <Check size={16} />
                                 </div>
                                 <p className="text-gray-700 text-sm sm:text-base">{item}</p>
@@ -55,7 +57,9 @@ const BenefitSection = () => {
                     {/* BUTTONS */}
                     <div className="flex flex-col sm:flex-row gap-4">
 
-                        <button className="w-full sm:w-auto
+                        <button
+                            onClick={() => navigate('/contact')}
+                            className="w-full sm:w-auto
                                             px-6 py-3
                                             rounded-full
                                             text-white
@@ -69,7 +73,9 @@ const BenefitSection = () => {
                             Get a Free Consultation
                         </button>
 
-                        <button className="w-full sm:w-auto px-6 py-3 border border-[#E2E8F0] text-[#0F172A] rounded-full hover:bg-gray-100 transition">
+                        <button
+                            onClick={() => navigate('/contact')}
+                            className="w-full sm:w-auto px-6 py-3 border border-[#E2E8F0] text-[#0F172A] rounded-full hover:bg-gray-100 transition">
                             Contact Our Team Today
                         </button>
 

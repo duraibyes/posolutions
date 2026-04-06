@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { testimonials } from "../../utils/config";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const Testimonial = () => {
     return (
@@ -17,12 +18,12 @@ const Testimonial = () => {
 
                 {/* CUSTOM ARROWS */}
                 <div className="flex gap-3">
-                    <button className="swiper-prev w-10 h-10 rounded-full border flex items-center justify-center">
-                        ←
+                    <button className="swiper-prev w-10 h-10 text-gray-400 rounded-full border flex items-center justify-center">
+                        <ArrowLeft />
                     </button>
 
                     <button className="swiper-next w-10 h-10 rounded-full border border-primary text-primary flex items-center justify-center">
-                        →
+                        <ArrowRight />
                     </button>
                 </div>
             </div>

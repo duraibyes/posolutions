@@ -2,8 +2,10 @@ import { Check } from 'lucide-react'
 
 import ImageWithFallback from '../../../../public/images/commercial/ImageWithFallback.png'
 import ImageWithSkeleton from '../../common/ImageWithSkeleton'
+import { useNavigate } from 'react-router-dom'
 
 const CommercialBenefitSection = () => {
+    const navigate = useNavigate();
     return (
         <section className="max-w-7xl mx-auto px-4 py-12 my-12">
             <div className="grid grid-cols-1 sm:grid-cols-2  gap-6 items-center">
@@ -50,7 +52,9 @@ const CommercialBenefitSection = () => {
                     {/* BUTTONS */}
                     <div className="flex flex-col sm:flex-row gap-4">
 
-                        <button className="w-full sm:w-auto
+                        <button
+                            onClick={() => navigate('/request-proposal')}
+                            className="w-full sm:w-auto
                                             px-6 py-3
                                             rounded-full
                                             text-white
@@ -64,7 +68,9 @@ const CommercialBenefitSection = () => {
                             Request a Consultation
                         </button>
 
-                        <button className="w-full sm:w-auto px-6 py-3 border border-[#E2E8F0] text-[#0F172A] rounded-full hover:bg-gray-100 transition">
+                        <button
+                            onClick={() => navigate('/contact')}
+                            className="w-full sm:w-auto px-6 py-3 border border-[#E2E8F0] text-[#0F172A] rounded-full hover:bg-gray-100 transition">
                             Contact Our Team Today
                         </button>
 

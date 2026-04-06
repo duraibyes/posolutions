@@ -11,7 +11,7 @@ const ContactForm = () => {
                 <input
                     type="text"
                     placeholder="John Doe"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200  focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
                 />
             </div>
 
@@ -22,7 +22,7 @@ const ContactForm = () => {
                 <input
                     type="email"
                     placeholder="john@example.com"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200  focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
                 />
             </div>
 
@@ -33,7 +33,7 @@ const ContactForm = () => {
                 <input
                     type="text"
                     placeholder="+1 (555) 123-4567"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200  focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
                 />
             </div>
 
@@ -44,7 +44,7 @@ const ContactForm = () => {
                 <textarea
                     rows={5}
                     placeholder="Write us..."
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200  focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
                 />
             </div>
 
