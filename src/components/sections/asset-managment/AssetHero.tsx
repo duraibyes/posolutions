@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom"
 import SecondaryRoundButton from "../../button/SecondaryRoundButton"
 import HeroSection from "../../layout/HeroSection"
 
 const AssetHero = () => {
+    const navigate = useNavigate();
     return (
         <HeroSection
             content={
@@ -14,7 +16,7 @@ const AssetHero = () => {
                             Comprehensive asset management services to maximize the value and performance of your property portfolio through strategic planning and expert oversight.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Get Started" />
+                            <SecondaryRoundButton label="Get Started" onClick={() => navigate('/commercial-owner')} />
                         </div>
                     </div>
                 </div>

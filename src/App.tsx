@@ -11,11 +11,13 @@ import ContactUs from "./components/screen/ContactUs";
 import RequestProposal from "./components/screen/RequestProposal";
 import AssetManagement from "./components/screen/AssetManagement";
 import FinancialServices from "./components/screen/FinancialServices";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
   return (
     <div className="min-h-screen">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

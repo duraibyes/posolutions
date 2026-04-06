@@ -12,7 +12,7 @@ const HeroSection = ({
             {/* BACKGROUND */}
             <div className="absolute top-0 left-0 w-full
           h-[700px] sm:h-[650px] md:h-[750px] lg:h-[850px]
-          bg-[#0C7489] z-0" />
+          bg-[#0C7489] z-0 min-h-[90vh] sm:min-h-screen" />
 
             {/* CURVE */}
             <div className="absolute bottom-0 left-0 w-full z-0">
@@ -23,7 +23,7 @@ const HeroSection = ({
                 >
                     <path
                         fill="#ffffff"
-                        d="M0,240 C800,250 1100,120 1440,0 L1440,520 L0,500 Z"
+                        d="M0,260 C800,250 1100,120 1440,0 L1440,520 L0,500 Z"
                     />
                 </svg>
             </div>
