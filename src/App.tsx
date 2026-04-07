@@ -12,6 +12,7 @@ import RequestProposal from "./components/screen/RequestProposal";
 import AssetManagement from "./components/screen/AssetManagement";
 import FinancialServices from "./components/screen/FinancialServices";
 import ScrollToTop from "./components/ScrollToTop";
+import AssociationManagement from "./components/screen/AssociationManagement";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/request-proposal" element={<RequestProposal />} />
         <Route path="/asset-management" element={<AssetManagement />} />
         <Route path="/financial-recovery-services" element={<FinancialServices />} />
+        <Route path="/association-management" element={<AssociationManagement />} />
       </Routes>
       <Footer />
     </div>

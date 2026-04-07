@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../../../public/images/POSolutions_logo-prod.png";
+import Logo from "../../../public/images/footer_logo.png";
 import FooterImg1 from "../../../public/images/footer-1.png";
 import FooterImg2 from "../../../public/images/footer-2.png";
 import FooterImg3 from "../../../public/images/footer-3.png";
