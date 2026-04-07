@@ -1,27 +1,27 @@
 export const testimonials = [
   {
-    name: "Briana Patton",
-    role: "Manager",
+    name: "Property Owner",
+    role: "Residential Community",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    text: "POSolutions has made managing our community much easier. Their team is responsive, professional, and always keeps residents informed. We’ve seen noticeable improvements in communication and overall community operations.",
+    text: "Managing our community has become much easier with their support. Communication is clear, and everything is handled in a structured and professional way.",
   },
   {
-    name: "Imelda Cowen",
-    role: "Consultant",
+    name: "Association Member",
+    role: "Community Association",
     image: "https://randomuser.me/api/portraits/women/2.jpg",
-    text: "Working with POSolutions has been a great experience. They handle property management with efficiency and transparency, ensuring everything runs smoothly for both the board and residents.",
+    text: "Their team is reliable and responsive. From handling requests to maintaining transparency, they’ve improved how our community operates.",
   },
   {
-    name: "Alfred Walton",
-    role: "Manager",
+    name: "Commercial Property Owner",
+    role: "Commercial Space",
     image: "https://randomuser.me/api/portraits/men/3.jpg",
-    text: "The POSolutions team brings expertise and reliability to every aspect of property management. Their proactive approach and attention to detail have made a real difference for our community.",
+    text: "They provide consistent and efficient management services. It has helped us streamline operations and focus more on business growth.",
   },
   {
-    name: "John Smith",
-    role: "Owner",
+    name: "Property Manager",
+    role: "Real Estate",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
-    text: "The POSolutions team brings expertise and reliability to every aspect of property management. Their proactive approach and attention to detail have made a real difference for our community.",
+    text: "A dependable team that understands property management challenges and provides practical solutions that actually work.",
   },
 ];
 

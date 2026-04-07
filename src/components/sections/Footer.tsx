@@ -17,9 +17,7 @@ const Footer = () => {
                         <img src={Logo} alt="logo" className="mb-4 mx-auto sm:mx-0" />
 
                         <p className="text-gray-600 leading-relaxed ml-4 my-4">
-                            Managing Communities.
-                            <br />
-                            Supporting Property Success.
+                            Helping businesses grow with smart and scalable technology solutions.
                         </p>
                     </div>
 

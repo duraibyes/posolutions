@@ -25,14 +25,14 @@ const Partners = () => {
                     text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center text-[#0C0047]
                   "
                 >
-                    Partners We Work With
+                    Our Trusted Partners & Network
                 </h2>
                 <p
                     className="
                     text-[#969696] text-center
                   "
                 >
-                    Collaborating with trusted professionals and organizations
+                    We collaborate with reliable partners, service providers, and industry professionals to deliver seamless and efficient property management solutions.
                 </p>
             </div>
             <div

@@ -12,9 +12,13 @@ const Testimonial = () => {
 
             {/* HEADER */}
             <div className="flex justify-between items-center mb-10">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0C0047]">
-                    POSolutions is loved by users
-                </h2>
+                <div className="flex flex-col gap-4">
+
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0C0047]">
+                        What Our Clients Say
+                    </h2>
+                    <p className="text-sm px-2 text-gray-400">We focus on delivering reliable and efficient property management solutions that make a real difference for our clients.</p>
+                </div>
 
                 {/* CUSTOM ARROWS */}
                 <div className="flex gap-3">

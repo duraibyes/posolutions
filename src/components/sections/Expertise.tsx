@@ -10,7 +10,7 @@ const Expertise = () => {
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-[#0C0047]">
                     Our Expertise
                 </h2>
-                <p className="text-[#969696] text-center">Reliable property and community management services tailored to your needs.</p>
+                <p className="text-[#969696] text-center">We provide end-to-end property and community management services designed to simplify operations, improve financial control, and enhance overall property value.</p>
             </div>
             <div className="grid 
     grid-cols-1 
@@ -18,21 +18,25 @@ const Expertise = () => {
     lg:grid-cols-4 
     gap-8 
     mt-10">
-                <div className="flex flex-col items-center justify-center" >
+                <div className="flex flex-col items-center justify-start" >
                     <img src={Expert4} alt="Asset Management" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#343434] text-center font-bold mt-4">Asset Management</p>
+                    <p className="text-[#969696] text-center text-sm mt-4">Optimize property performance, maintenance, and long-term value.</p>
                 </div>
-                <div className="flex flex-col items-center justify-center" >
+                <div className="flex flex-col items-center justify-start" >
                     <img src={Expert3} alt="Financial Recovery Services" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#343434] text-center font-bold mt-4"> 	Financial Recovery Services </p>
+                    <p className="text-[#969696] text-center text-sm mt-4">Efficient tracking and recovery of pending payments and dues.</p>
                 </div>
-                <div className="flex flex-col items-center justify-center" >
+                <div className="flex flex-col items-center justify-start" >
                     <img src={Expert2} alt="Association Management " className="hover:brightness-50 transition duration-300" />
-                    <p className="text-[#343434] text-center font-bold mt-4"> Association Management </p>
+                    <p className="text-[#343434] text-center font-bold mt-4"> Community & Association Management </p>
+                    <p className="text-[#969696] text-center text-sm mt-4"> Streamline communication, operations, and compliance for associations. </p>
                 </div>
-                <div className="flex flex-col items-center justify-center" >
+                <div className="flex flex-col items-center justify-start" >
                     <img src={Expert1} alt="Real Estate Brokerage Services " className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#343434] text-center font-bold mt-4"> Real Estate Brokerage Services </p>
+                    <p className="text-[#969696] text-center text-sm mt-4">Professional support for buying, selling, and leasing properties.</p>
                 </div>
             </div>
         </section>

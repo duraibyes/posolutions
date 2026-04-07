@@ -9,7 +9,7 @@ const OurServices = () => {
 
             <div className='mb-4'>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-[#0C0047]">
-                    Complete HOA And Commercial Solutions
+                    Complete Property & Community Management Solutions
                 </h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 mt-2 gap-8 items-center">
@@ -26,7 +26,7 @@ const OurServices = () => {
 
                     {/* SMALL TITLE */}
                     <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide mb-3">
-                        Our services
+                        Our Core services
                     </p>
 
                     {/* MAIN TITLE */}
@@ -36,16 +36,16 @@ const OurServices = () => {
 
                     {/* DESCRIPTION */}
                     <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
-                        Providing distinctive association management services to multiple communities throughout Georgia, our firm offers affordable solutions that have guided many homeowner and condominium associations on the path from suffering through costly consequences of mismanagement towards developing a more sophisticated, streamlined management system.
+                        We provide structured and reliable community and association management services designed to simplify daily operations, improve financial transparency, and enhance communication between residents and management teams.
                     </p>
 
                     {/* LIST */}
                     <div className="space-y-4 mb-8">
                         {[
                             "Document Compliance & Governance",
-                            "Community Meeting Facilitation",
-                            "Accounts Payable & Receivables",
-                            "Vendor Maintenance",
+                            "Community & Resident Management",
+                            "Billing, Dues & Financial Tracking",
+                            "Vendor & Maintenance Coordination",
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-3">
                                 <div className="w-6 h-6 flex items-center justify-center rounded-full bg-teal-100 text-teal-600">
@@ -70,7 +70,7 @@ const OurServices = () => {
                                             transition duration-300"
                             style={{ boxShadow: "0 4px 6px -1px rgba(14, 110, 139, 0.20), 0 2px 4px -2px rgba(14, 110, 139, 0.20)" }}
                         >
-                            Learn More
+                            Explore Service Details
                         </button>
 
                     </div>

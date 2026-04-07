@@ -61,7 +61,7 @@ const ServiceHero = () => {
                             lg:text-[64px]
                           "
                         >
-                            Professional Asset <br /> Management Solutions
+                            Complete Property & Asset Management Solutions
                         </h1>
 
                         <p
@@ -73,7 +73,7 @@ const ServiceHero = () => {
                             md:text-lg
                           "
                         >
-                            Comprehensive property and asset management services tailored for residential and commercial clients.
+                            We provide end-to-end property and asset management services designed to simplify operations, improve efficiency, and maximize the value of your residential and commercial properties.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
                             <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/owner')} />
@@ -113,32 +113,32 @@ const ServiceHero = () => {
                             <div className="p-6 flex flex-col flex-grow">
 
                                 {/* TITLE */}
-                                <div className="flex items-center gap-3 mb-3">
+                                <div className="flex items-center gap-3 mb-3 h-10">
                                     <Home className="text-[#0C7489]" />
                                     <h3 className="text-xl font-semibold text-gray-900">
-                                        Residential
+                                        Residential Property Management
                                     </h3>
                                 </div>
 
                                 {/* DESCRIPTION */}
                                 <p className="text-[#4A5565] text-sm sm:text-base mb-4">
-                                    Expert management services for homeowners, providing peace of mind
-                                    and maximizing property value.
+                                    Professional management services designed for homeowners and residential communities — ensuring smooth operations,
+                                    better communication, and long-term property value.
                                 </p>
 
                                 {/* LIST */}
                                 <ul className="space-y-2 text-gray-700 text-sm mb-6">
                                     <li className="flex items-center gap-2">
                                         <span className="w-2 h-2 bg-[#0C7489] rounded-full" />
-                                        Property Maintenance
+                                        Property Maintenance & Support
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <span className="w-2 h-2 bg-[#0C7489] rounded-full" />
-                                        Financial Planning
+                                        Billing, Dues & Financial Tracking
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <span className="w-2 h-2 bg-[#0C7489] rounded-full" />
-                                        Portfolio Management
+                                        Resident Communication & Requests
                                     </li>
                                 </ul>
 
@@ -163,32 +163,31 @@ const ServiceHero = () => {
                             <div className="p-6 flex flex-col flex-grow">
 
                                 {/* TITLE */}
-                                <div className="flex items-center gap-3 mb-3">
+                                <div className="flex items-center gap-3 mb-3 h-10">
                                     <Building2 className="text-[#0C7489]" />
                                     <h3 className="text-xl font-semibold text-gray-900">
-                                        Commercial
+                                        Commercial Property Management
                                     </h3>
                                 </div>
 
                                 {/* DESCRIPTION */}
                                 <p className="text-gray-600 text-sm sm:text-base mb-4">
-                                    Comprehensive solutions for businesses, optimizing asset
-                                    performance and ROI.
+                                    Tailored solutions for commercial properties and organizations — helping streamline operations, improve tenant management, and maximize asset performance.
                                 </p>
 
                                 {/* LIST */}
                                 <ul className="space-y-2 text-gray-700 text-sm mb-6">
                                     <li className="flex items-center gap-2">
                                         <span className="w-2 h-2 bg-[#0C7489] rounded-full" />
-                                        Asset Optimization
+                                        Tenant & Lease Management
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <span className="w-2 h-2 bg-[#0C7489] rounded-full" />
-                                        Risk Management
+                                        Operational Oversight
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <span className="w-2 h-2 bg-[#0C7489] rounded-full" />
-                                        Strategic Advisory
+                                        Financial Reporting & Insights
                                     </li>
                                 </ul>
 

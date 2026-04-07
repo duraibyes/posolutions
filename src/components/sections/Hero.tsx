@@ -1,8 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import HomeOwnerImage from "../../../public/images/home_owner_site.png";
 import CommercialImage from "../../../public/images/commercial_site.png";
 import PrimaryButton from "../button/PrimaryButton";
-import { useNavigate } from "react-router-dom";
-import ImageWithSkeleton from "../common/ImageWithSkeleton";
+import HeroImage from "../common/HeroImage";
 
 const Hero = () => {
 
@@ -45,7 +45,7 @@ const Hero = () => {
                 >
                     <div
                         className="
-                        max-w-5xl
+                        max-w-7xl
                         mx-auto
                         text-center
                         mb-8
@@ -59,8 +59,7 @@ const Hero = () => {
                             lg:text-[64px]
                           "
                         >
-                            Property & Community <br />
-                            Management Made Simple
+                            Smart Property & Community Management Solutions You Can Trust
                         </h1>
 
                         <p
@@ -72,8 +71,7 @@ const Hero = () => {
                             md:text-lg
                           "
                         >
-                            Supporting homeowners, associations, commercial property owners,
-                            and government agencies with reliable management solutions.
+                            We provide modern, reliable, and transparent property management solutions designed to simplify operations, improve communication, and help homeowners, associations, and commercial owners manage their properties with confidence.
                         </p>
                     </div>
                 </div>
@@ -83,7 +81,7 @@ const Hero = () => {
                     className="
                     z-20
                     px-4 pb-16
-                    -mt-40 relative
+                    sm:mt-0 md:-mt-40 relative
                   "
                 >
                     <div
@@ -92,8 +90,9 @@ const Hero = () => {
                         md:max-w-4xl
                         max-w-2xl
                         mx-auto
-                        sm:gap-0 gap-4
+                        sm:gap-4 md:gap-0
                         md:grid-cols-2
+                        mt-4 md:mt-0
                       "
                     >
                         {/* LEFT CARD */}
@@ -104,6 +103,7 @@ const Hero = () => {
                             bg-white
                             rounded-2xl
                             shadow-md
+                            
                             items-center justify-center /* Mobile */ /* Desktop */
                             md:rounded-none md:rounded-l-2xl md:border md:border-white md:border-r-0 md:shadow-lg
                           "
@@ -114,13 +114,13 @@ const Hero = () => {
                                 text-2xl font-bold text-[#0C7489]
                               "
                             >
-                                Home Owners
+                                Homeowners
                             </h2>
 
-                            <ImageWithSkeleton
+                            <HeroImage
                                 src={HomeOwnerImage}
                                 alt="Home Owner"
-                                className="mb-4 h-40"
+                                className="mb-4 h-60 w-full rounded-md"
                             />
 
                             <p
@@ -128,10 +128,13 @@ const Hero = () => {
                                 my-2
                                 text-[#969696]
                                 mb-6
+                                md:h-[130px]
+                                lg:h-[120px]
                               "
                             >
-                                Manage your HOA account, pay dues, and submit service requests
-                                through your secure homeowner portal.
+                                Easily manage your property with a secure and user-friendly portal.
+                                Access account details, pay dues, track requests, and stay connected
+                                with your community — all in one place.
                             </p>
                             <div className="mb-4 w-full">
                                 <PrimaryButton label="Explore Our Services" onClick={() => navigate('/owner')} />
@@ -159,10 +162,10 @@ const Hero = () => {
                                 Commercial Owners
                             </h2>
 
-                            <ImageWithSkeleton
+                            <HeroImage
                                 src={CommercialImage}
                                 alt="Commercial Owner"
-                                className="mb-4 h-40"
+                                className="mb-4 h-60"
                             />
 
                             <p
@@ -170,10 +173,14 @@ const Hero = () => {
                                 mb-6
                                 my-2
                                 text-white/90
+                                md:h-[130px]
+                                lg:h-[120px]
                               "
                             >
-                                Trusted management services for associations, commercial
-                                property owners, and government agencies.
+                                Comprehensive management solutions for commercial properties,
+                                associations, and organizations. Streamline operations, improve
+                                tenant satisfaction, and manage everything efficiently from a
+                                centralized system.
                             </p>
                             <div className="mb-4 w-full text-center">
 

@@ -22,8 +22,12 @@ const GetInTouch = () => {
                             Get in touch with us
                         </h2>
 
-                        <p className="text-[#969696] text-sm sm:text-base">
-                            Looking for help? Call us +1 678-715-1430
+                        <p className="text-[#969696] text-sm sm:text-base my-4">
+                            Have questions or need a better way to manage your property? <br />Our team is here to help you find the right solution.
+                        </p>
+                        <p className="text-[#969696] text-sm sm:text-base mb-4">We’ll understand your requirements and recommend the best approach for your needs.</p>
+                        <p className="text-primary font-semibold text-sm sm:text-base mb-4">
+                            Call us: +1 678-715-1430
                         </p>
                         <div className="relative my-6 flex items-center justify-center lg:justify-start">
 
