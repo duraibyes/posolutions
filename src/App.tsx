@@ -13,6 +13,7 @@ import AssetManagement from "./components/screen/AssetManagement";
 import FinancialServices from "./components/screen/FinancialServices";
 import ScrollToTop from "./components/ScrollToTop";
 import AssociationManagement from "./components/screen/AssociationManagement";
+import RealEstateBrokerageServices from "./components/screen/RealEstateBrokerageServices";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/asset-management" element={<AssetManagement />} />
         <Route path="/financial-recovery-services" element={<FinancialServices />} />
         <Route path="/association-management" element={<AssociationManagement />} />
+        <Route path="/real-estate-brokerage" element={<RealEstateBrokerageServices />} />
       </Routes>
       <Footer />
     </div>

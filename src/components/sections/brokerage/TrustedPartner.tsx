@@ -1,40 +1,37 @@
-import { FileText, Users, Wallet } from "lucide-react";
+import { Key, TrendingUp, Users } from "lucide-react";
 
 const features = [
     {
+        icon: <Key size={28} />,
+        title: "Property Transactions",
+        desc: "Seamless buying, selling, and leasing services with expert negotiation and market insights.",
+    },
+    {
+        icon: <TrendingUp size={28} />,
+        title: "Market Expertise",
+        desc: "Deep knowledge of local markets and trends to help you make informed investment decisions.",
+    },
+    {
         icon: <Users size={28} />,
-        title: "Community Focus",
-        desc: "Building strong, engaged communities through effective communication and responsive management.",
-    },
-    {
-        icon: <FileText size={28} />,
-        title: "Comprehensive Services",
-        desc: "Full-service management including financial oversight, maintenance coordination, and governance support.",
-    },
-    {
-        icon: <Wallet size={28} />,
-        title: "Financial Expertise",
-        desc: "Expert financial management to maintain fiscal health and maximize property values.",
+        title: "Client-Focused Service",
+        desc: "Personalized attention and dedicated support throughout your real estate journey.",
     },
 ];
 
-const ExpertCommunity = () => {
+const TrustedPartner = () => {
     return (
         <section className=" py-16 px-4 sm:px-6 lg:px-8">
 
             <div className="max-w-7xl mx-auto text-center">
 
-                {/* HEADING */}
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-                    Expert Community Management
+                    Your Trusted Real Estate Partner
                 </h2>
 
-                {/* DESCRIPTION */}
                 <p className="mt-4 max-w-3xl mx-auto text-gray-600 text-sm sm:text-base leading-relaxed">
-                    We provide comprehensive management services for homeowners associations, condominium communities, and residential developments, ensuring your community thrives and property values remain strong.
+                    Our experienced real estate professionals provide comprehensive brokerage services for residential and commercial properties, guiding you through every step of the transaction process.
                 </p>
 
-                {/* CARDS */}
                 <div className="
           mt-12
           grid grid-cols-1
@@ -54,17 +51,14 @@ const ExpertCommunity = () => {
                 hover:shadow-lg 
               "
                         >
-                            {/* ICON */}
                             <div className="text-[#0C7489] mb-4">
                                 {item.icon}
                             </div>
 
-                            {/* TITLE */}
                             <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
                                 {item.title}
                             </h3>
 
-                            {/* DESCRIPTION */}
                             <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
                                 {item.desc}
                             </p>
@@ -78,4 +72,4 @@ const ExpertCommunity = () => {
     );
 }
 
-export default ExpertCommunity;
+export default TrustedPartner;
