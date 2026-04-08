@@ -5,17 +5,17 @@ const PortfolioValueSection = () => {
         {
             icon: <TrendingUp size={28} />,
             title: "Value Optimization",
-            desc: "Strategic initiatives to enhance property values and maximize returns on investment.",
+            desc: "We implement data-driven strategies and operational improvements to increase asset value, boost returns, and unlock the full potential of your portfolio.",
         },
         {
             icon: <BarChart3 size={28} />,
             title: "Performance Tracking",
-            desc: "Real-time monitoring and reporting on key performance metrics across your portfolio.",
+            desc: "Gain complete visibility with real-time insights, detailed reporting, and key performance metrics that help you make informed, confident decisions.",
         },
         {
             icon: <Target size={28} />,
             title: "Risk Mitigation",
-            desc: "Proactive identification and management of risks to protect your investment.",
+            desc: "We proactively identify potential risks and implement preventive measures to safeguard your assets and ensure long-term stability and growth.",
         },
     ];
 
@@ -26,13 +26,13 @@ const PortfolioValueSection = () => {
 
                 {/* HEADING */}
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-                    Maximize Your Property Portfolio Value
+                    Maximize the Value of Your Property Portfolio
                 </h2>
 
                 {/* DESCRIPTION */}
                 <p className="mt-4 max-w-3xl mx-auto text-gray-600 text-sm sm:text-base leading-relaxed">
-                    Our asset management services provide strategic oversight and operational excellence
-                    to enhance property performance, increase returns, and minimize risks across your entire portfolio.
+                    Our asset management approach combines strategic planning, financial insight, and operational excellence
+                    to help you increase returns, improve efficiency, and maintain long-term asset performance across your portfolio.
                 </p>
 
                 {/* CARDS */}

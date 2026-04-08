@@ -16,20 +16,24 @@ const WhyChooseAsset = () => {
     lg:grid-cols-3
     gap-8 
     mt-10">
-                <div className="flex flex-col items-center justify-center" >
+                <div className="flex flex-col items-center justify-start" >
                     <img src={chooseImg1} alt="Proven Results" className="hover:brightness-50 transition duration-300" />
-                    <p className="text-[#0A0A0A] text-center font-bold mt-4">Strategic Focus</p>
-                    <p className="text-[#4A5565] text-center mt-2"> Data-driven strategies aligned with your investment goals and market opportunities. </p>
+                    <p className="text-[#0A0A0A] text-center font-bold mt-4">Strategic Expertise</p>
+                    <p className="text-[#4A5565] text-center mt-2">
+                        We combine deep market knowledge with data-driven insights to create tailored strategies that maximize asset value and long-term growth.
+                    </p>
                 </div>
-                <div className="flex flex-col items-center justify-center" >
+                <div className="flex flex-col items-center justify-start" >
                     <img src={chooseImg2} alt="Secure & Reliable" className="hover:brightness-50 transition duration-300" />
-                    <p className="text-[#0A0A0A] text-center font-bold mt-4"> Proactive Management </p>
-                    <p className="text-[#4A5565] text-center mt-2"> Anticipating challenges and capitalizing on opportunities before they impact performance. </p>
+                    <p className="text-[#0A0A0A] text-center font-bold mt-4"> Proactive Asset Management </p>
+                    <p className="text-[#4A5565] text-center mt-2">
+                        Our team actively monitors performance, anticipates challenges, and takes swift action to protect your investments and capitalize on opportunities.
+                    </p>
                 </div>
-                <div className="flex flex-col items-center justify-center" >
+                <div className="flex flex-col items-center justify-start" >
                     <img src={chooseImg3} alt="Expert Team" className="hover:brightness-50 transition duration-300" />
-                    <p className="text-[#0A0A0A] text-center font-bold mt-4"> Proven Results </p>
-                    <p className="text-[#4A5565] text-center mt-2"> Track record of enhancing property values and delivering superior investment returns. </p>
+                    <p className="text-[#0A0A0A] text-center font-bold mt-4">Proven Performance </p>
+                    <p className="text-[#4A5565] text-center mt-2">  With a strong track record of delivering measurable results, we help clients increase returns, improve efficiency, and grow their portfolios with confidence. </p>
                 </div>
 
             </div>

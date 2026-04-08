@@ -13,7 +13,9 @@ const AssetHero = () => {
                             Asset Management
                         </h1>
                         <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
-                            Comprehensive asset management services to maximize the value and performance of your property portfolio through strategic planning and expert oversight.
+                            Take control of your investments with strategic asset management solutions designed to optimize performance,
+                            increase profitability, and protect long-term value. Our team combines data-driven insights, proactive planning,
+                            and hands-on expertise to ensure your portfolio operates at its full potential.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
                             <SecondaryRoundButton label="Get Started" onClick={() => navigate('/commercial-owner')} />

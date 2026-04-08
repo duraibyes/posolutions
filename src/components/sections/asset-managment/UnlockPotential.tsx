@@ -10,10 +10,11 @@ const UnlockPotential = () => {
                     Unlock Your Portfolio's Full Potential
                 </h2>
                 <p className="text-white text-center">
-                    Partner with our asset management experts to maximize value and achieve your investment objectives.
+                    Take the next step toward smarter asset management. Our experts will help you increase returns,
+                    streamline operations, and build a resilient, high-performing portfolio tailored to your long-term goals.
                 </p>
                 <div className="w-full text-center">
-                    <SecondaryButton label="View All Services" onClick={() => navigate("/services")} />
+                    <SecondaryButton label="Explore Our Services" onClick={() => navigate("/services")} />
                 </div>
             </div>
 

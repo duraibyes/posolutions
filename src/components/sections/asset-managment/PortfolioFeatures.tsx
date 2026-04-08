@@ -10,45 +10,45 @@ const features: Feature[] = [
     {
         title: "Portfolio Optimization",
         description:
-            "Strategic analysis and planning to optimize your property portfolio composition and performance.",
+            "We evaluate your entire portfolio to identify opportunities for growth, improved efficiency, and stronger returns through strategic asset positioning.",
         points: [
-            "Portfolio performance analysis",
-            "Asset allocation strategies",
+            "In-depth portfolio performance analysis",
+            "Smart asset allocation and diversification strategies",
             "Acquisition and disposition planning",
-            "Market opportunity identification",
+            "Identification of high-growth market opportunities",
         ],
     },
     {
-        title: "Performance Tracking",
+        title: "Performance Tracking & Reporting",
         description:
-            "Comprehensive monitoring and reporting systems to track asset performance and identify opportunities.",
+            "Stay informed with transparent reporting and real-time insights that help you understand performance and act quickly on opportunities.",
         points: [
-            "KPI development and tracking",
-            "Financial performance reporting",
-            "Benchmarking against market standards",
-            "Trend analysis and forecasting",
+            "Custom KPI development and tracking",
+            "Detailed financial and operational reporting",
+            "Benchmarking against market and industry standards",
+            "Predictive trend analysis and forecasting",
         ],
     },
     {
-        title: "Strategic Planning",
+        title: "Strategic Investment Planning",
         description:
-            "Long-term strategic planning to align asset management with your overall investment objectives.",
+            "We align your assets with long-term financial goals through tailored strategies designed to maximize value and ensure sustainable growth.",
         points: [
-            "Business plan development",
-            "Capital improvement planning",
-            "Investment strategy formulation",
-            "Exit strategy planning",
+            "Comprehensive business plan development",
+            "Capital improvement and reinvestment planning",
+            "Investment strategy design and execution",
+            "Clear and profitable exit strategy planning",
         ],
     },
     {
         title: "Operational Excellence",
         description:
-            "Ensuring efficient operations and optimal performance across all managed properties.",
+            "Our hands-on management approach ensures your properties operate efficiently, reduce costs, and consistently deliver high performance.",
         points: [
-            "Operating expense management",
-            "Tenant retention programs",
-            "Revenue enhancement initiatives",
-            "Quality control and compliance",
+            "Operating expense control and optimization",
+            "Tenant satisfaction and retention programs",
+            "Revenue growth and rent optimization strategies",
+            "Regulatory compliance and quality assurance",
         ],
     },
 ];
@@ -61,7 +61,7 @@ const PortfolioFeatures = () => {
 
                 {/* TITLE */}
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-                    Maximize Your Property Portfolio Value
+                    Comprehensive Asset Management Solutions
                 </h2>
 
                 {/* GRID */}
