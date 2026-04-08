@@ -4,17 +4,17 @@ const features = [
     {
         icon: <TrendingUp size={28} />,
         title: "Recovery Planning",
-        desc: "Comprehensive assessment and strategic planning to identify recovery opportunities and paths forward.",
+        desc: "We conduct a deep financial assessment to uncover root causes, identify recovery opportunities, and build a clear, actionable roadmap toward stability and growth.",
     },
     {
         icon: <RefreshCcw size={28} />,
         title: "Restructuring Expertise",
-        desc: "Expert guidance on debt restructuring, operational improvements, and financial reorganization.",
+        desc: "Our specialists guide you through complex restructuring processes, including debt reorganization, cost optimization, and operational realignment to restore financial balance.",
     },
     {
         icon: <Target size={28} />,
         title: "Results-Driven",
-        desc: "Focused on delivering measurable improvements in cash flow, profitability, and financial stability.",
+        desc: "We focus on delivering measurable outcomes—improving cash flow, strengthening profitability, and building a more resilient financial foundation.",
     },
 ];
 
@@ -26,12 +26,14 @@ const FinancialOppurtunites = () => {
 
                 {/* HEADING */}
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-                    Turn Financial Challenges Into Opportunities
+                    Transform Financial Challenges into Strategic Opportunities
                 </h2>
 
                 {/* DESCRIPTION */}
-                <p className="mt-4 max-w-3xl mx-auto text-gray-600 text-sm sm:text-base leading-relaxed">
-                    Our financial recovery specialists work with organizations facing financial distress to develop and implement comprehensive turnaround strategies that restore financial health and stability.
+                <p className="mt-4 max-w-2xl mx-auto text-gray-600 text-sm sm:text-base leading-relaxed">
+                    We partner with organizations facing financial pressure to stabilize operations,
+                    restore confidence, and implement structured turnaround strategies that lead to
+                    sustainable recovery and long-term success.
                 </p>
 
                 {/* CARDS */}

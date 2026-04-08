@@ -10,10 +10,11 @@ const StartFinancialJourney = () => {
                     Start Your Financial Recovery Journey
                 </h2>
                 <p className="text-white text-center">
-                    Let our experienced team help you navigate financial challenges and build a stronger, more stable future.
+                    Don’t let financial challenges hold your business back. Our experts are ready to help you
+                    stabilize operations, improve cash flow, and build a stronger, more resilient financial future.
                 </p>
                 <div className="w-full text-center">
-                    <SecondaryButton label="View All Services" onClick={() => navigate("/services")} />
+                    <SecondaryButton label="Explore All Services" onClick={() => navigate("/services")} />
                 </div>
             </div>
 

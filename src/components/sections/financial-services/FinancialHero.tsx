@@ -13,10 +13,12 @@ const FinancialHero = () => {
                             Financial Recovery Services
                         </h1>
                         <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
-                            Strategic financial recovery and restructuring services to help organizations overcome financial challenges and return to profitability.
+                            Navigate financial challenges with confidence. Our expert-led recovery and restructuring solutions
+                            are designed to stabilize operations, restore cash flow, and position your organization for sustainable growth
+                            and long-term success.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Get Started" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Start Your Recovery Plan" onClick={() => navigate('/commercial-owner')} />
                         </div>
                     </div>
                 </div>

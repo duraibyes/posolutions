@@ -10,45 +10,45 @@ const features: Feature[] = [
     {
         title: "Debt Restructuring",
         description:
-            "Strategic analysis and planning to optimize your property portfolio composition and performance.Strategic debt restructuring to reduce financial burden and improve cash flow position.",
+            "We develop and execute strategic debt restructuring plans to reduce financial pressure, improve liquidity, and restore your organization’s financial stability.",
         points: [
-            "Creditor negotiation and settlement",
-            "Debt refinancing and consolidation",
-            "Payment plan development",
-            "Bankruptcy alternative solutions"
+            "Creditor negotiation and settlement strategies",
+            "Debt refinancing and consolidation planning",
+            "Customized repayment structures",
+            "Bankruptcy avoidance and alternative solutions"
         ],
     },
     {
         title: "Cash Flow Optimization",
         description:
-            "Immediate actions to improve cash flow and ensure operational continuity.",
+            "We implement immediate and practical solutions to stabilize cash flow, ensuring your business can continue operating without disruption.",
         points: [
-            "Working capital management",
-            "Accounts receivable acceleration",
-            "Expense reduction strategies",
-            "Cash forecasting and monitoring"
+            "Working capital and liquidity management",
+            "Accounts receivable acceleration strategies",
+            "Cost reduction and expense control",
+            "Short- and long-term cash flow forecasting"
         ],
     },
     {
         title: "Turnaround Strategies",
         description:
-            "Comprehensive turnaround planning and execution to restore organizational health.",
+            "Our turnaround approach focuses on restoring profitability through operational improvements, revenue growth, and strategic realignment.",
         points: [
-            "Operational efficiency improvements",
-            "Revenue enhancement initiatives",
-            "Cost structure optimization",
-            "Business model reassessment"
+            "Operational efficiency and process improvements",
+            "Revenue growth and pricing optimization",
+            "Cost structure redesign",
+            "Business model evaluation and repositioning"
         ],
     },
     {
         title: "Financial Analysis & Planning",
         description:
-            "Detailed financial analysis to identify root causes and develop recovery roadmaps.",
+            "We conduct in-depth financial diagnostics to uncover root causes and build a clear, actionable roadmap for recovery and long-term success.",
         points: [
-            "Financial diagnostic assessment",
-            "Recovery plan development",
-            "Performance monitoring systems",
-            "Stakeholder communication"
+            "Comprehensive financial health assessment",
+            "Customized recovery and restructuring plans",
+            "Performance tracking and reporting systems",
+            "Stakeholder and investor communication support"
         ],
     },
 ];
@@ -61,7 +61,7 @@ const FinancialRecoveryProcess = () => {
 
                 {/* TITLE */}
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-                    Our Financial Recovery Services
+                    Comprehensive Financial Recovery Solutions
                 </h2>
 
                 {/* GRID */}

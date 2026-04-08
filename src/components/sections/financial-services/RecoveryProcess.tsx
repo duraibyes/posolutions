@@ -1,23 +1,23 @@
 const processData = [
     {
         id: 1,
-        title: "Assessment",
-        description: "Comprehensive analysis of financial position and challenges"
+        title: "Assessment & Diagnosis",
+        description: "We conduct a thorough financial and operational assessment to identify root causes, risks, and immediate areas requiring attention."
     },
     {
         id: 2,
-        title: "Strategy",
-        description: "Development of customized recovery plan and timeline"
+        title: "Strategy Development",
+        description: "A tailored recovery roadmap is created with clear priorities, actionable steps, and defined timelines aligned with your business goals."
     },
     {
         id: 3,
-        title: "Execution",
-        description: "Implementation of recovery strategies and initiatives"
+        title: "Execution & Implementation",
+        description: "Our team works alongside you to implement restructuring, cost optimization, and performance improvement initiatives effectively."
     },
     {
         id: 4,
-        title: "Stabilization",
-        description: "Ongoing monitoring and adjustment to ensure sustained recovery"
+        title: "Stabilization & Growth",
+        description: "We continuously monitor progress, refine strategies, and ensure long-term financial stability while positioning your business for future growth."
     }
 ];
 
@@ -33,7 +33,7 @@ const RecoveryProcess = () => {
 
                     {
                         processData.map(data => (
-                            <div key={data.id} className="flex items-center justify-center flex-col gap-4">
+                            <div key={data.id} className="flex items-center justify-start flex-col gap-4">
                                 <div
                                     className="
                   w-14 h-14
