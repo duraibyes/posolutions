@@ -12,8 +12,12 @@ const Services = () => {
                         Community Services
                     </p>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0F172A] mt-2">
-                        Complete HOA Solutions
+                        Everything Your Community Needs, All in One Place
                     </h2>
+                    <p className="text-sm sm:text-base text-gray-600 mt-3 max-w-4xl">
+                        From daily maintenance to long-term property care, our services are designed to simplify
+                        community living, improve efficiency, and enhance the overall homeowner experience.
+                    </p>
                 </div>
 
                 <button

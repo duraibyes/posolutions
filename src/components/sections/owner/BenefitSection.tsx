@@ -20,30 +20,29 @@ const BenefitSection = () => {
 
                     {/* SMALL TITLE */}
                     <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide mb-3">
-                        Benefits of working with us
+                        Why Homeowners Choose Us
                     </p>
 
                     {/* MAIN TITLE */}
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F172A] leading-tight mb-6">
-                        Reliable Property Solutions <br />
-                        for Homeowners
+                        Stress-Free Living Starts <br />
+                        with Better Property Management
                     </h2>
 
                     {/* DESCRIPTION */}
                     <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
-                        We provide dependable property and facility services designed to make
-                        residential living easier, more organized, and well maintained. Our
-                        experienced team focuses on quality service, efficient management,
-                        and long-term value for homeowners.
+                        We take the complexity out of managing residential communities by delivering
+                        reliable, efficient, and high-quality services. Our goal is simple — to give
+                        homeowners peace of mind while protecting and enhancing the value of their property.
                     </p>
 
                     {/* LIST */}
                     <div className="space-y-4 mb-8">
                         {[
-                            "Reliable support from experienced professionals.",
-                            "Smooth and organized management for residential communities.",
-                            "Consistent high standards in every service we deliver.",
-                            "Confidence that your property is well managed and maintained.",
+                            "Dedicated experts ensuring your community runs smoothly every day.",
+                            "Organized systems that reduce stress and improve communication.",
+                            "High-quality service standards you can rely on consistently.",
+                            "Long-term property care that protects and increases value.",
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-3">
                                 <div className="w-6 h-6 flex items-center justify-center rounded-full bg-teal-100 text-[#0E6E8B]">
@@ -70,13 +69,13 @@ const BenefitSection = () => {
                                             transition duration-300"
                             style={{ boxShadow: "0 4px 6px -1px rgba(14, 110, 139, 0.20), 0 2px 4px -2px rgba(14, 110, 139, 0.20)" }}
                         >
-                            Get a Free Consultation
+                            Get Your Free Consultation
                         </button>
 
                         <button
                             onClick={() => navigate('/contact')}
                             className="w-full sm:w-auto px-6 py-3 border border-[#E2E8F0] text-[#0F172A] rounded-full hover:bg-gray-100 transition">
-                            Contact Our Team Today
+                            Talk to Our Team
                         </button>
 
                     </div>

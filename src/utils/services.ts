@@ -10,37 +10,37 @@ export const services = [
   {
     title: "Facilities Support",
     description:
-      "Ensuring smooth day-to-day operations with reliable maintenance and quick support for residential communities.",
+      "Reliable day-to-day maintenance and rapid response services that keep your community running smoothly and efficiently.",
     image: ServiceImg1,
   },
   {
     title: "Asset Management",
     description:
-      "Helping homeowners maintain and protect the value of their property through efficient asset care and planning.",
+      "Protect and enhance property value with proactive asset care, planning, and long-term maintenance strategies.",
     image: ServiceImg2,
   },
   {
     title: "Building Finishing",
     description:
-      "Providing quality finishing services that enhance the appearance and durability of residential spaces.",
+      "High-quality finishing solutions that improve durability, aesthetics, and the overall appeal of residential spaces.",
     image: ServiceImg3,
   },
   {
     title: "Community Relations",
     description:
-      "Building strong relationships between residents and management for better community living.",
+      "Strengthening communication and trust between residents and management to create a more connected community.",
     image: ServiceImg4,
   },
   {
     title: "Floor Installation",
     description:
-      "Professional flooring services for durability and modern aesthetics.",
+      "Durable and stylish flooring solutions designed to enhance comfort and modern living standards.",
     image: ServiceImg5,
   },
   {
     title: "Cleaning Services",
     description:
-      "Maintaining hygiene and cleanliness across residential properties.",
+      "Consistent and professional cleaning services that maintain hygiene, safety, and a welcoming environment.",
     image: ServiceImg6,
   },
 ];
