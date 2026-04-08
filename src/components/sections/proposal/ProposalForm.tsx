@@ -1,13 +1,16 @@
-import { Calendar, Send } from "lucide-react"
-import { ContactMethod, InquireServices } from "../../../utils/config"
-import DatePicker from "react-datepicker"
-import Input from "../../common/Input"
 import { useState } from "react"
+import { Calendar, Send } from "lucide-react"
+import DatePicker from "react-datepicker"
 import emailjs from "@emailjs/browser";
+import { ContactMethod, InquireServices } from "../../../utils/config"
+import Input from "../../common/Input"
+import { PROPOSAL_TEMPLATE_ID, PUBLIC_KEY, SERVICE_ID } from "../../../utils/email"
 
 const ProposalForm = () => {
 
     const [date, setDate] = useState<Date | null>(null);
+    const [loading, setLoading] = useState(false);
+    const [status, setStatus] = useState(""); // success / error message
 
     const [form, setForm] = useState({
         fullName: "",
@@ -36,6 +39,7 @@ const ProposalForm = () => {
 
         if (!form.fullName) newErrors.fullName = "Required";
         if (!form.email) newErrors.email = "Required";
+        if (!form.businessName) newErrors.businessName = "Required";
         if (!form.phone) newErrors.phone = "Required";
         if (!form.homes) newErrors.homes = "Required";
 
@@ -58,22 +62,40 @@ const ProposalForm = () => {
 
         if (!validate()) return;
         console.log("Form Data:", { ...form, date: date?.toLocaleDateString() });
-
+        setStatus("");
+        setLoading(true);
         emailjs
             .send(
-                "YOUR_SERVICE_ID",
-                "YOUR_TEMPLATE_ID",
+                SERVICE_ID,
+                PROPOSAL_TEMPLATE_ID,
                 {
                     ...form,
                     date: date?.toLocaleDateString(),
                 },
-                "YOUR_PUBLIC_KEY"
+                PUBLIC_KEY
             )
             .then(() => {
-                alert("Email sent successfully!");
+                setStatus("✅ Message sent successfully!");
+                setForm({
+                    fullName: "",
+                    businessName: "",
+                    email: "",
+                    phone: "",
+                    address: "",
+                    contactMethod: "",
+                    associationName: "",
+                    managementCompany: "",
+                    homes: "",
+                    services: "",
+                    inquireService: "",
+                    additionalInfo: "",
+                    currentContract: "",
+                })
+                setLoading(false);
             })
             .catch(() => {
-                alert("Failed to send email");
+                setStatus("Failed to send email");
+                setLoading(false);
             });
     };
 
@@ -177,16 +199,22 @@ const ProposalForm = () => {
                     ></textarea>
                 </div>
 
+                {status && (
+                    <p className="text-center text-sm font-medium">
+                        {status}
+                    </p>
+                )}
+
                 {/* BUTTON */}
                 <button
                     type="submit"
-                    disabled={!isValid}
+                    disabled={!isValid || loading}
                     className={`
             w-full px-6 py-3 rounded-xl flex items-center justify-center ${!isValid ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-[#0C7489] text-white"}
           `}
                 >
                     <span className="mr-2"><Send /></span>
-                    Submit Request
+                    {loading ? "Sending..." : "Submit Request"}
                 </button>
 
             </form>
