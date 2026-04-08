@@ -60,7 +60,9 @@ const Navbar = () => {
                             Request Proposal
                         </button>
 
-                        <button className="w-full text-sm px-4 py-2 bg-white text-teal-600 rounded-md hover:bg-teal-50 transition font-medium whitespace-nowrap">
+                        <button className="w-full text-sm px-4 py-2 bg-white text-teal-600 rounded-md hover:bg-teal-50 transition font-medium whitespace-nowrap"
+                            onClick={() => window.open("https://prosol.cincwebaxis.com/", "_blank")}
+                        >
                             Homeowner Login
                         </button>
                     </div>
