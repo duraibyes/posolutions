@@ -57,35 +57,43 @@ export const commercialServices = [
     description:
       "End-to-end management of daily facility operations to ensure smooth performance, minimal downtime, and efficient resource utilization.",
     image: CommercialServiceImg1,
+    naics: "561210", // Facilities Support Services
   },
   {
     title: "Asset & Property Management",
     description:
       "Strategic management of commercial assets to optimize property value, extend lifecycle, and maximize return on investment.",
     image: CommercialServiceImg2,
+    naics: "531312", // Nonresidential Property Managers
   },
   {
     title: "Tenant Management & Relations",
     description:
       "Professional handling of tenant communication, onboarding, and retention to ensure satisfaction and long-term occupancy.",
     image: CommercialServiceImg4,
+    naics: "531312", // Property management overlaps here
   },
   {
     title: "Maintenance & Technical Services",
     description:
       "Proactive and reactive maintenance solutions to keep commercial properties fully operational and compliant with safety standards.",
     image: CommercialServiceImg3,
+    naics: "238220",
+    // 238220: Plumbing, Heating, and AC Contractors
+    // 238210: Electrical Contractors
   },
   {
     title: "Cleaning & Janitorial Services",
     description:
       "High-standard cleaning and sanitation services tailored for commercial environments, ensuring hygiene and professional presentation.",
     image: CommercialServiceImg6,
+    naics: "561720", // Janitorial Services
   },
   {
     title: "Fit-Out & Renovation Services",
     description:
       "Customized interior fit-out and renovation solutions to enhance functionality, branding, and space utilization.",
     image: CommercialServiceImg5,
+    naics: "236220", // Commercial Building Construction
   },
 ];

@@ -24,11 +24,15 @@ const CommercialServiceCard = () => {
                         className="mb-4 h-50"
                     />
                 </div>
+                <div className="flex justify-between gap-4 items-center">
+
+                    <h3 className="text-lg font-semibold text-[#0F172A] mb-2">
+                        {service.title}
+                    </h3>
+                    <p className="text-end text-sm font-medium">NAICS CODE: {service.naics}</p>
+                </div>
 
                 {/* TITLE */}
-                <h3 className="text-lg font-semibold text-[#0F172A] mb-2">
-                    {service.title}
-                </h3>
 
                 {/* DESCRIPTION */}
                 <p className="text-sm text-[#64748B] leading-relaxed">
