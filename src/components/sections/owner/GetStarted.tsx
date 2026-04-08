@@ -10,10 +10,11 @@ const GetStarted = () => {
                     Ready to Get Started?
                 </h2>
                 <p className="text-white text-center">
-                    Join thousands of satisfied clients who trust POSolutions with their asset management needs.
+                    Partner with POSolutions to unlock smarter asset management, maximize returns,
+                    and achieve long-term financial growth with confidence.
                 </p>
                 <div className="w-full text-center">
-                    <SecondaryButton label="Schedule a Consultation" onClick={() => navigate('/contact')} />
+                    <SecondaryButton label="Schedule Your Free Consultation" onClick={() => navigate('/contact')} />
                 </div>
             </div>
 

@@ -15,27 +15,28 @@ const FinanceService = () => {
 
                     {/* SMALL TITLE */}
                     <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide mb-3">
-                        Our services
+                        Financial services
                     </p>
 
                     {/* MAIN TITLE */}
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F172A] leading-tight mb-6">
-                        Financial Recovery Services
+                        Financial Management & Recovery
                     </h2>
 
                     {/* DESCRIPTION */}
                     <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
-                        Allow us to help you ensure the profitability of your investment by employing our detailed debt collections policy. Utilizing technology and processes offered from being a Fair Credit Reporting Agency, corporate entities, asset managers or HOA’s and condo associations can benefit from the collective efforts of our credential affiliates.
+                        We help property owners and associations manage finances efficiently by tracking dues,
+                        improving collection processes, and maintaining clear financial records.
                     </p>
 
                     {/* LIST */}
                     <div className="space-y-4 mb-8">
                         {[
-                            "Securing Financial Composure",
-                            "Results-Driven Collections Program",
-                            "Credit Reporting Services",
-                            "Asset Locator Services",
-                            "Skip Tracing Services"
+                            "Financial Reports & Insights",
+                            "Dues & Payment Tracking",
+                            "Automated Billing & Invoicing",
+                            "Pending Payment Follow-ups",
+                            "Transparent Record Management"
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-3">
                                 <div className="w-6 h-6 flex items-center justify-center rounded-full bg-teal-100 text-teal-600">
@@ -62,7 +63,7 @@ const FinanceService = () => {
                                             transition duration-300"
                             style={{ boxShadow: "0 4px 6px -1px rgba(14, 110, 139, 0.20), 0 2px 4px -2px rgba(14, 110, 139, 0.20)" }}
                         >
-                            Learn More
+                            View Financial Services
                         </button>
 
                     </div>

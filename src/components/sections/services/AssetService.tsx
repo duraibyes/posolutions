@@ -11,7 +11,6 @@ const AssetService = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 mt-2 gap-8 items-center">
 
                 <div className="w-full">
-
                     <ImageWithSkeleton
                         src={OurServicesImg}
                         alt="Our Services"
@@ -19,28 +18,27 @@ const AssetService = () => {
                     />
                 </div>
                 <div>
-
-                    {/* SMALL TITLE */}
                     <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide mb-3">
-                        Our services
+                        Asset services
                     </p>
 
-                    {/* MAIN TITLE */}
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F172A] leading-tight mb-6">
-                        Asset Management
+                        Property Asset Management
                     </h2>
 
-                    {/* DESCRIPTION */}
                     <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
-                        Whether your portfolio consists of commercial buildings, vacant or occupied properties, you are probably familiar with the unexpected – and, often, unprovoked – maintenance issues that can occur. As an experienced asset preservation company, we are trained and prepared to quickly remedy any outstanding or newly developed building and facility maintenance requests.
+                        We help property owners maintain and manage their assets efficiently by ensuring timely maintenance, operational consistency, and long-term property value.
+                    </p>
+                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
+                        Our team ensures that all maintenance activities are handled smoothly, reducing downtime and improving overall property performance.
                     </p>
 
-                    {/* LIST */}
                     <div className="space-y-4 mb-8">
                         {[
-                            "Quick Response Emergency Maintenance",
-                            "Janitorial Services",
-                            "General Maintenance",
+                            "Operational Issue Resolution",
+                            "Vendor & Service Coordination",
+                            "Facility Monitoring & Support",
+                            "Preventive & On-Demand Maintenance"
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-3">
                                 <div className="w-6 h-6 flex items-center justify-center rounded-full bg-teal-100 text-teal-600">
@@ -51,9 +49,7 @@ const AssetService = () => {
                         ))}
                     </div>
 
-                    {/* BUTTONS */}
                     <div className="flex flex-col sm:flex-row gap-4">
-
                         <button
                             onClick={() => navigate('/asset-management')}
                             className="w-full sm:w-auto
@@ -67,13 +63,10 @@ const AssetService = () => {
                                             transition duration-300"
                             style={{ boxShadow: "0 4px 6px -1px rgba(14, 110, 139, 0.20), 0 2px 4px -2px rgba(14, 110, 139, 0.20)" }}
                         >
-                            Learn More
+                            View Asset Management Services
                         </button>
-
                     </div>
-
                 </div>
-
             </div>
         </section>
     )
