@@ -3,18 +3,18 @@ import { Key, TrendingUp, Users } from "lucide-react";
 const features = [
     {
         icon: <Key size={28} />,
-        title: "Property Transactions",
-        desc: "Seamless buying, selling, and leasing services with expert negotiation and market insights.",
+        title: "End-to-End Property Transactions",
+        desc: "From listing to closing, we manage buying, selling, and leasing with precision, ensuring smooth transactions and optimal outcomes.",
     },
     {
         icon: <TrendingUp size={28} />,
-        title: "Market Expertise",
-        desc: "Deep knowledge of local markets and trends to help you make informed investment decisions.",
+        title: "Data-Driven Market Insights",
+        desc: "Leverage in-depth market analysis, pricing strategies, and trend forecasting to make confident and profitable real estate decisions.",
     },
     {
         icon: <Users size={28} />,
         title: "Client-Focused Service",
-        desc: "Personalized attention and dedicated support throughout your real estate journey.",
+        desc: "We prioritize your goals with personalized strategies, transparent communication, and dedicated support at every stage.",
     },
 ];
 
@@ -25,11 +25,13 @@ const TrustedPartner = () => {
             <div className="max-w-7xl mx-auto text-center">
 
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-                    Your Trusted Real Estate Partner
+                    A Trusted Partner for Every Real Estate Decision
                 </h2>
 
                 <p className="mt-4 max-w-3xl mx-auto text-gray-600 text-sm sm:text-base leading-relaxed">
-                    Our experienced real estate professionals provide comprehensive brokerage services for residential and commercial properties, guiding you through every step of the transaction process.
+                    Whether you're buying, selling, or leasing residential or commercial properties, our experienced
+                    brokerage team delivers strategic guidance, market expertise, and hands-on support to help you
+                    achieve the best possible results with confidence
                 </p>
 
                 <div className="

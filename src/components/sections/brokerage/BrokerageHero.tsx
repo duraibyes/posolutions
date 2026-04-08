@@ -12,11 +12,13 @@ const BrokerageHero = () => {
                         <h1 className="text-[32px] font-bold text-white leading-tight sm:text-[40px] md:text-[52px] lg:text-[64px]">
                             Real Estate Brokerage Services
                         </h1>
-                        <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
-                            Expert real estate brokerage services to help you buy, sell, or lease properties with confidence and maximize your investment returns.
+                        <p className="max-w-2xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
+                            Navigate the real estate market with confidence. Our experienced brokerage team provides
+                            strategic guidance for buying, selling, and leasing properties—helping you secure the right
+                            opportunities, negotiate effectively, and maximize the value of every transaction.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Get Started" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Start Your Real Estate Journey" onClick={() => navigate('/commercial-owner')} />
                         </div>
                     </div>
                 </div>

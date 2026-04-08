@@ -10,41 +10,41 @@ const features: Feature[] = [
     {
         title: "Sales & Acquisitions",
         description:
-            "Expert representation for buyers and sellers in residential and commercial real estate transactions.",
+            "Professional representation for buyers and sellers, ensuring every transaction is strategically positioned, expertly negotiated, and successfully executed.",
         points: [
-            "Property valuation and pricing strategy",
-            "Marketing and property showcasing",
-            "Negotiation and contract management"
+            "Accurate property valuation and strategic pricing",
+            "Targeted marketing and high-impact property exposure",
+            "Skilled negotiation and contract execution"
         ],
     },
     {
-        title: "Leasing Services",
+        title: "Leasing & Tenant Representation",
         description:
-            "Comprehensive leasing solutions for landlords and tenants seeking optimal lease agreements.",
+            "End-to-end leasing solutions designed to secure reliable tenants, optimize rental income, and create mutually beneficial lease agreements.",
         points: [
-            "Tenant screening and placement",
-            "Lease negotiation and documentation",
-            "Market rent analysis and optimization"
+            "Comprehensive tenant screening and placement",
+            "Lease structuring, negotiation, and documentation",
+            "Market rent analysis and revenue optimization"
         ],
     },
     {
-        title: "Investment Advisory",
+        title: "Real Estate Investment Advisory",
         description:
-            "Strategic guidance for real estate investors seeking to build and optimize their property portfolios.",
+            "Strategic advisory services to help investors identify opportunities, minimize risk, and maximize long-term returns.",
         points: [
-            "Investment property identification",
-            "Cash flow and ROI analysis",
-            "Portfolio diversification strategies"
+            "High-potential investment property sourcing",
+            "Detailed cash flow and ROI analysis",
+            "Portfolio growth and diversification planning"
         ],
     },
     {
-        title: "Market Analysis",
+        title: "Market Intelligence & Analysis",
         description:
-            "In-depth market research and analysis to inform your real estate decisions and strategies.",
+            "Data-driven insights and research that empower you to make confident, informed real estate decisions in dynamic markets.",
         points: [
-            "Comparative market analysis",
-            "Neighborhood and demographic trends",
-            "Property appreciation forecasts"
+            "Comparative market analysis (CMA) and pricing insights",
+            "Local market trends and demographic analysis",
+            "Property value forecasting and growth projections"
         ],
     },
 ];
@@ -57,7 +57,7 @@ const OurBrokerage = () => {
 
                 {/* TITLE */}
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-                    Our Brokerage Services
+                    Comprehensive Brokerage Services
                 </h2>
 
                 {/* GRID */}
