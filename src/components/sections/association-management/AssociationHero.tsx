@@ -12,11 +12,13 @@ const AssociationHero = () => {
                         <h1 className="text-[32px] font-bold text-white leading-tight sm:text-[40px] md:text-[52px] lg:text-[64px]">
                             Association Management
                         </h1>
-                        <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
-                            Professional management services for homeowners associations and community organizations to ensure smooth operations and enhanced property values.
+                        <p className="max-w-2xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
+                            Simplify community management with professional solutions designed to support board members,
+                            enhance resident satisfaction, and protect property values. We handle the day-to-day operations,
+                            financial oversight, and compliance—so your community runs smoothly and efficiently.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Get Started" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Start Managing Your Community" onClick={() => navigate('/commercial-owner')} />
                         </div>
                     </div>
                 </div>

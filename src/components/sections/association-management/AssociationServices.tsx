@@ -10,45 +10,45 @@ const features: Feature[] = [
     {
         title: "Board Support & Governance",
         description:
-            "Professional support for your board of directors to ensure effective governance and decision-making.",
+            "Empowering board members with the tools, guidance, and structure needed to lead effectively while ensuring compliance and transparent decision-making.",
         points: [
-            "Board meeting coordination and facilitation",
-            "Policy development and enforcement",
-            "Compliance with governing documents",
-            "Training and education for board members"
+            "Board meeting planning, coordination, and documentation",
+            "Policy creation, enforcement, and governance best practices",
+            "Compliance with bylaws, regulations, and legal requirements",
+            "Ongoing training and advisory support for board members"
         ],
     },
     {
         title: "Financial Management",
         description:
-            "Complete financial oversight including budgeting, accounting, and financial reporting.",
+            "Comprehensive financial oversight designed to maintain transparency, strengthen reserves, and ensure long-term financial stability.",
         points: [
-            "Budget preparation and monitoring",
-            "Assessment collection and accounting",
-            "Monthly financial statements",
-            "Reserve fund planning and management"
+            "Annual budgeting and ongoing financial monitoring",
+            "Assessment billing, collection, and accounting management",
+            "Detailed monthly financial reporting and insights",
+            "Reserve study planning and capital expense forecasting"
         ],
     },
     {
         title: "Community Communication",
         description:
-            "Effective communication strategies to keep residents informed and engaged.",
+            "Streamlined communication systems that keep residents informed, engaged, and aligned with community standards and updates.",
         points: [
-            "Resident portal and online access",
-            "Newsletter and community updates",
-            "Responsive resident support",
-            "Violation notice management"
+            "Digital resident portals for easy access and updates",
+            "Regular newsletters, announcements, and alerts",
+            "Responsive support for homeowner inquiries and concerns",
+            "Fair and consistent violation tracking and communication"
         ],
     },
     {
-        title: "Vendor Coordination",
+        title: "Vendor & Maintenance Management",
         description:
-            "Professional management of vendors and contractors to ensure quality service delivery.",
+            "Efficient coordination of vendors and maintenance services to ensure quality work, cost control, and timely execution.",
         points: [
-            "Vendor selection and contracting",
-            "Work order management",
-            "Quality control and oversight",
-            "Maintenance program coordination"
+            "Vendor sourcing, vetting, and contract management",
+            "Work order tracking and maintenance scheduling",
+            "Quality assurance and service performance monitoring",
+            "Preventive maintenance planning for long-term asset care"
         ],
     },
 ];

@@ -4,17 +4,17 @@ const features = [
     {
         icon: <Users size={28} />,
         title: "Community Focus",
-        desc: "Building strong, engaged communities through effective communication and responsive management.",
+        desc: "We foster strong, well-connected communities through clear communication, responsive support, and proactive management that enhances resident satisfaction.",
     },
     {
         icon: <FileText size={28} />,
         title: "Comprehensive Services",
-        desc: "Full-service management including financial oversight, maintenance coordination, and governance support.",
+        desc: "From financial oversight and maintenance coordination to governance and compliance, we provide end-to-end solutions that simplify association management.",
     },
     {
         icon: <Wallet size={28} />,
         title: "Financial Expertise",
-        desc: "Expert financial management to maintain fiscal health and maximize property values.",
+        desc: "Our financial expertise ensures accurate budgeting, transparent reporting, and long-term planning to protect reserves and sustain property values.",
     },
 ];
 
@@ -31,7 +31,9 @@ const ExpertCommunity = () => {
 
                 {/* DESCRIPTION */}
                 <p className="mt-4 max-w-3xl mx-auto text-gray-600 text-sm sm:text-base leading-relaxed">
-                    We provide comprehensive management services for homeowners associations, condominium communities, and residential developments, ensuring your community thrives and property values remain strong.
+                    We partner with homeowners associations, condominium boards, and residential communities to deliver
+                    reliable, transparent, and efficient management solutions that improve operations, strengthen communities,
+                    and preserve long-term property value.
                 </p>
 
                 {/* CARDS */}

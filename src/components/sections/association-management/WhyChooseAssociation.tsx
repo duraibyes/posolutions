@@ -1,20 +1,21 @@
 import { Calendar, MessageSquare, Wallet } from "lucide-react";
 
+
 const processData = [
     {
         id: <Calendar />,
-        title: "Proven Experience",
-        description: "Years of expertise managing diverse communities with outstanding results and satisfied residents."
+        title: "Proven Industry Experience",
+        description: "Extensive experience managing diverse communities, delivering consistent results, and maintaining high levels of resident satisfaction."
     },
     {
         id: <MessageSquare />,
-        title: "Responsive Service",
-        description: "Quick response times and dedicated support to address concerns and maintain satisfaction."
+        title: "Responsive & Reliable Support",
+        description: "Dedicated management teams ensure timely communication, quick issue resolution, and a seamless experience for board members and residents."
     },
     {
         id: <Wallet />,
-        title: "Financial Strength",
-        description: "Expert financial management that maintains reserve funds and property values."
+        title: "Strong Financial Oversight",
+        description: "Disciplined financial management practices that safeguard reserves, control costs, and protect long-term property value."
     },
 
 ];
@@ -25,7 +26,7 @@ const WhyChooseAssociation = () => {
 
             <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-14">
-                    Our Recovery Process
+                    Why Choose Our Association Management
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
