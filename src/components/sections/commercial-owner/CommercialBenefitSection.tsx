@@ -19,26 +19,29 @@ const CommercialBenefitSection = () => {
 
                     {/* SMALL TITLE */}
                     <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide mb-3">
-                        Benefits of working with us
+                        Why Businesses Choose Us
                     </p>
 
                     {/* MAIN TITLE */}
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F172A] leading-tight mb-6">
-                        Reliable Management Solutions for Commercial and Public Facilities
+                        Efficient, Scalable Management
+                        for Commercial
                     </h2>
 
                     {/* DESCRIPTION */}
                     <p className="text-[#475569] text-sm sm:text-base leading-relaxed mb-6">
-                        We deliver dependable facility and property management services designed to help businesses and government organizations maintain efficient, safe, and well-managed environments.
+                        We provide structured, performance-driven property and facility management
+                        solutions that help organizations reduce operational costs, improve efficiency,
+                        and maintain high standards across their assets.
                     </p>
 
                     {/* LIST */}
                     <div className="space-y-4 mb-8">
                         {[
-                            "Experienced professionals delivering dependable support.",
-                            "Streamlined management processes that improve facility performance.",
-                            "Consistent service quality across all property and facility services.",
-                            "Organizations can focus on their work while we manage the property."
+                            "Dedicated experts ensuring consistent and reliable facility operations.",
+                            "Optimized processes that reduce costs and improve operational efficiency.",
+                            "High compliance and safety standards across all managed properties.",
+                            "Focus on your core business while we manage and enhance your assets.",
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-3">
                                 <div className="w-6 h-6 flex items-center justify-center rounded-full bg-teal-100 text-teal-600">
@@ -65,7 +68,7 @@ const CommercialBenefitSection = () => {
                                             transition duration-300"
                             style={{ boxShadow: "0 4px 6px -1px rgba(14, 110, 139, 0.20), 0 2px 4px -2px rgba(14, 110, 139, 0.20)" }}
                         >
-                            Request a Consultation
+                            Request a Proposal
                         </button>
 
                         <button

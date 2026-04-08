@@ -9,11 +9,11 @@ const CommercialHero = () => {
         <HeroSection
             content={
                 <div className="flex-1 flex px-4 items-center justify-center">
-                    <div className="max-w-5xl mx-auto text-center">
+                    <div className="max-w-6xl mx-auto text-center">
                         <h1 className="text-[32px] font-bold text-white leading-tight sm:text-[40px] md:text-[52px] lg:text-[64px]">
-                            Property & Facility <br />  Management for Commercial Assets
+                            Property & Facility Management for Commercial Assets
                         </h1>
-                        <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
+                        <p className="max-w-4xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
                             We help commercial property owners streamline operations, reduce costs,
                             and maximize asset performance through reliable, professional management solutions.
                         </p>
