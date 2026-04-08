@@ -12,7 +12,9 @@ const AboutHero = () => {
                             About POSolutions
                         </h1>
                         <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
-                            Leading the way in asset management with integrity, expertise, and a commitment to our clients' success since 2001.
+                            At POSolutions, we empower individuals and businesses with smarter asset management solutions.
+                            With over two decades of experience, we combine deep industry expertise, innovative strategies,
+                            and a client-first approach to help you grow, protect, and maximize your investments with confidence.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
                             <SecondaryRoundButton label="Residential Services" />

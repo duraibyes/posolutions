@@ -15,17 +15,23 @@ const Mission = () => {
                 <div className="flex flex-col items-start justify-center bg-[#F9FAFB] p-6 rounded-lg" >
                     <img src={MissionImg1} alt="Proven Results" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4"> Our Mission </p>
-                    <p className="text-[#4A5565] mt-2">  To improve the perception about community association living while building stronger and safer communities that preserve value.  </p>
+                    <p className="text-[#4A5565] mt-2">
+                        To elevate the standard of community association living by fostering stronger, safer neighborhoods and preserving long-term property value for every client we serve.
+                    </p>
                 </div>
                 <div className="flex flex-col items-start justify-center bg-[#F9FAFB] p-6 rounded-lg" >
                     <img src={MissionImg2} alt="Secure & Reliable" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4"> Our Purpose </p>
-                    <p className="text-[#4A5565]  mt-2"> To consistently execute, concise services in the communities we serve that guarantees our clients Worry Free assurances that their assets are efficiently maintained. </p>
+                    <p className="text-[#4A5565]  mt-2">
+                        To deliver consistent, high-quality management services that give our clients complete peace of mind—knowing their assets are protected, maintained, and performing at their best.
+                    </p>
                 </div>
                 <div className="flex flex-col items-start justify-center bg-[#F9FAFB] p-6 rounded-lg" >
                     <img src={MissionImg3} alt="Expert Team" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4">Our Values</p>
-                    <p className="text-[#4A5565]  mt-2">Integrity, transparency, and client-first approach guide every decision we make and action we take.</p>
+                    <p className="text-[#4A5565]  mt-2">
+                        We operate with integrity, transparency, and accountability—putting our clients first in every decision while building lasting relationships based on trust.
+                    </p>
                 </div>
 
             </div>

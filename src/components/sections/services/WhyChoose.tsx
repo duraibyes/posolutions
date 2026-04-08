@@ -19,17 +19,23 @@ const WhyChoose = () => {
                 <div className="flex flex-col items-center justify-center" >
                     <img src={chooseImg1} alt="Proven Results" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4">Proven Results</p>
-                    <p className="text-[#4A5565] text-center mt-2"> We consistently deliver measurable outcomes with a strong track record of maximizing returns, optimizing performance, and creating long-term value for our clients. </p>
+                    <p className="text-[#4A5565] text-center mt-2">
+                        Our performance speaks for itself. We deliver consistent, measurable results by maximizing returns, improving efficiency, and driving long-term asset value.
+                    </p>
                 </div>
                 <div className="flex flex-col items-center justify-center" >
                     <img src={chooseImg2} alt="Secure & Reliable" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4"> Secure & Reliable </p>
-                    <p className="text-[#4A5565] text-center mt-2"> Your trust is our priority. We use advanced security standards and robust systems to ensure your data and investments are always protected and accessible. </p>
+                    <p className="text-[#4A5565] text-center mt-2">
+                        We prioritize your peace of mind with dependable service, advanced security practices, and systems designed to keep your assets safe, stable, and accessible.
+                    </p>
                 </div>
                 <div className="flex flex-col items-center justify-center" >
                     <img src={chooseImg3} alt="Expert Team" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4"> Expert Team </p>
-                    <p className="text-[#4A5565] text-center mt-2"> Our team of industry experts brings deep knowledge, strategic insight, and hands-on experience to help you achieve your financial and business goals. </p>
+                    <p className="text-[#4A5565] text-center mt-2">
+                        Backed by experienced professionals, we combine industry knowledge, strategic thinking, and hands-on execution to help you achieve your goals with confidence.
+                    </p>
                 </div>
 
             </div>

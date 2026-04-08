@@ -18,18 +18,27 @@ const OurStory = () => {
                     />
                 </div>
                 <div className='flex flex-col items-start justify-start'>
+
                     <p className="text-[#475569] text-sm sm:text-base leading-relaxed mb-2">
-                        POSolutions, Inc. was first established in 2004 by our President, Shandron Forte, a licensed Broker with the Georgia Real Estate Commission. We have invested nearly two decades into accumulating top talent while strategically scaling our business to become the leading provider of property management services. With a revolving 98% retention rate, evidence of our hard work, dedication, and commitment to our clients’ success is displayed through the results we produce. As a team, and an organization, POSolutions proudly reflects on the proven track record we’ve established with communities throughout the state.
+                        POSolutions, Inc. was founded in 2004 by our President, Shandron Forte, a licensed Broker with the Georgia Real Estate Commission. What began as a vision to deliver dependable and results-driven property management has grown into a trusted industry leader. Over the years, we have built a strong foundation by attracting top talent and continuously evolving to meet the needs of a dynamic market.
                     </p>
+
                     <p className="text-[#475569] text-sm sm:text-base leading-relaxed mb-2">
-                        Our work has helped owners and investors from every background, managing portfolios of all sizes for developers, corporate entities, local county agencies, as well as government affiliates. Specializing in all areas of Real Estate and Asset Management, our offering also expands into various areas including Building & Facilities Maintenance, Financial Recovery and Neighborhood Management Programs.
+                        Our success is rooted in long-term relationships and consistent performance. With an impressive 98% client retention rate, we take pride in delivering measurable results while maintaining a high standard of service. Our portfolio spans a diverse range of clients—including developers, corporate organizations, local agencies, and government entities—managing assets of all sizes with precision and care.
                     </p>
+
                     <p className="text-[#475569] text-sm sm:text-base leading-relaxed mb-2">
-                        Currently managing nearly 10K units throughout the Atlanta Metro Area, our firm oversees approximately $7.5 million in association funds. Committed to serving our community at every level, we strive to foster the growth and development of our neighborhoods by providing distinctive services that allow us to educate and motivate our clients to build stronger, safer communities that preserve value.
+                        Beyond traditional property management, our expertise extends into Building & Facilities Maintenance, Financial Recovery, and Neighborhood Management Programs. This comprehensive approach allows us to provide end-to-end solutions that not only protect assets but also enhance their long-term value.
                     </p>
+
                     <p className="text-[#475569] text-sm sm:text-base leading-relaxed mb-2">
-                        Based in the Historic District of Downtown Douglasville, and approximately 20 miles west of Atlanta, our offices are easily accessible to the entire metro area. Submit a Request for Proposal today for a full synopsis of how our licensed brokers, sales agents, property managers, and experienced maintenance teams can help you expand your dreams.
+                        Today, we manage nearly 10,000 units across the Atlanta Metro Area and oversee approximately $7.5 million in association funds. Our mission goes beyond management—we are deeply committed to strengthening communities by delivering services that promote growth, stability, and sustainability.
                     </p>
+
+                    <p className="text-[#475569] text-sm sm:text-base leading-relaxed mb-2">
+                        Headquartered in the Historic District of Downtown Douglasville, just 20 miles west of Atlanta, our team is strategically positioned to serve the entire metro area. Whether you're looking to optimize existing assets or scale your portfolio, POSolutions is here to help you move forward with confidence.
+                    </p>
+
                 </div>
             </div>
         </section>

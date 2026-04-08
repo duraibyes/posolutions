@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom'
 import SecondaryButton from '../../button/SecondaryButton'
 
 const JoinOur = () => {
+    const navigate = useNavigate();
     return (
         <section className="max-w-5xl mx-auto px-4 py-12 my-12">
             <div className="flex flex-col gap-10 items-center justify-center bg-primary rounded-xl p-12" >
@@ -8,10 +10,12 @@ const JoinOur = () => {
                     Join Our Growing Family
                 </h2>
                 <p className="text-white text-center">
-                    Experience the POSolutions difference and discover why thousands of clients trust us with their most important assets.
+                    Become part of a community that values trust, performance, and long-term success.
+                    At POSolutions, we don’t just manage assets—we build lasting partnerships that help you grow,
+                    protect, and maximize what matters most.
                 </p>
                 <div className="w-full text-center">
-                    <SecondaryButton label="Schedule a Consultation" onClick={() => { }} />
+                    <SecondaryButton label="Schedule Your Free Consultation" onClick={() => navigate('/contact')} />
                 </div>
             </div>
 
