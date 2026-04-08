@@ -28,27 +28,27 @@ export const testimonials = [
 export const faqs = [
   {
     q: "How quickly will I receive a response?",
-    a: "We aim to respond to all inquiries within 24 business hours.",
+    a: "Our team typically responds to all inquiries within 24 business hours. For urgent matters, we recommend calling our support line for immediate assistance.",
   },
   {
     q: "Do you offer free consultations?",
-    a: "Yes! We offer complimentary initial consultations to discuss your needs.",
+    a: "Yes, we offer a complimentary initial consultation to understand your needs, discuss your goals, and explore how our services can best support you.",
   },
   {
     q: "What should I prepare for a consultation?",
-    a: "Bring any relevant financial documents and a list of your goals and concerns.",
+    a: "To make the most of your consultation, we recommend having details about your property or portfolio, along with any goals, challenges, or questions you’d like to address.",
   },
   {
     q: "What do I gain from partnering with POSolutions, Inc.?",
-    a: "In short, our agents offer clients two important things – time and experience. Our firm creates profitable solutions for procuring, managing, and maintaining your assets; solutions that clear your schedule and free your hands so you can continue to succeed in other areas.",
+    a: "Partnering with POSolutions gives you access to expert guidance, efficient asset management, and proven strategies that save you time while maximizing the value and performance of your investments.",
   },
   {
     q: "Can you help me locate properties for sale?",
-    a: "Absolutely. We have licensed and trained real estate agents on our team who can help you locate and close on commercial or residential properties throughout the state of Georgia. As a full-service firm, POSolutions can assist you with every stage of the transaction.",
+    a: "Absolutely. Our licensed real estate professionals can help you identify, evaluate, and acquire both residential and commercial properties, guiding you through every step of the process.",
   },
   {
-    q: "Do I have to live in-state to benefit from your services?",
-    a: "Our clients are owners and investors who hail from coast to coast. Our team can assist you with the everyday management requirements of your investment properties without tasking you with the responsibility of spending time and money on frequent travels.",
+    q: "Do I need to be located in the same state to work with you?",
+    a: "Not at all. We work with clients across the country, providing seamless property management and support so you can manage your investments without being physically present.",
   },
   {
     q: "Can you assist me in creating a long-term strategy for my investments?",
