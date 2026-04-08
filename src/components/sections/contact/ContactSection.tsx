@@ -50,7 +50,7 @@ const ContactSection = () => {
                         </h3>
 
                         <p className="text-[#4A5565] text-sm mb-3">
-                            For urgent matters, please call our 24/7 emergency line:
+                            For urgent issues that require immediate attention, our support team is available 24/7 to assist you.
                         </p>
 
                         <p className="text-[#0C7489] font-bold text-lg">
