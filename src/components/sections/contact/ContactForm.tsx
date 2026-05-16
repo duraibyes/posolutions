@@ -135,7 +135,7 @@ const ContactForm = () => {
 
             {/* Status Message */}
             {status && (
-                <p className="text-center text-sm font-medium">
+                <p className="text-center text-teal-600 text-sm font-medium">
                     {status}
                 </p>
             )}
