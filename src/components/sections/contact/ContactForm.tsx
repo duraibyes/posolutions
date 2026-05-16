@@ -60,7 +60,7 @@ const ContactForm = () => {
                 PUBLIC_KEY
             );
 
-            setStatus("✅ Message sent successfully!");
+            setStatus("Message sent successfully!");
             setForm({ name: "", email: "", phone: "", message: "" });
         } catch (error) {
             setStatus("❌ Failed to send message. Please try again.");
