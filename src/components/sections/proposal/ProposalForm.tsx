@@ -75,7 +75,7 @@ const ProposalForm = () => {
                 PUBLIC_KEY
             )
             .then(() => {
-                setStatus("✅ Message sent successfully!");
+                setStatus(" Message sent successfully!");
                 setForm({
                     fullName: "",
                     businessName: "",
@@ -107,7 +107,6 @@ const ProposalForm = () => {
         /^\S+@\S+\.\S+$/.test(form.email) &&
         /^[0-9+\-\s()]{8,}$/.test(form.phone);
 
-    console.log("Form Valid:", isValid);
 
     return (
         <div>
