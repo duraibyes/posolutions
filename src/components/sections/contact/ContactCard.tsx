@@ -32,7 +32,7 @@ const ContactCard = () => {
                     <img src={ContactImg3} alt="Expert Team" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4"> Office </p>
                     <p className="text-[#4A5565]  mt-2"> Visit our headquarters </p>
-                    <p className="text-[#0C7489] font-bold">6713 Church Street, Douglasville, GA 30134</p>
+                    <p className="text-[#0C7489] font-bold">5493 Westmoreland Plaza, Ste D100, Douglasville, GA 30134.</p>
                 </div>
 
             </div>
