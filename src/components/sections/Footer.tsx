@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Logo from "../../../public/images/footer_logo.png";
-import FooterImg1 from "../../../public/images/facbook-icon.png";
-import FooterImg2 from "../../../public/images/insta-icon.png";
-import FooterImg3 from "../../../public/images/linked-in-logo.png";
+import FooterImg1 from "../../../public/images/fb.png";
+import FooterImg2 from "../../../public/images/ig.png";
+import FooterImg3 from "../../../public/images/lin.png";
 
 const Footer = () => {
 
@@ -74,12 +74,12 @@ const Footer = () => {
                             </li>
                             <li className="hover:text-primary cursor-pointer">
                                 <a href="https://www.instagram.com/posolutions/" target="_blank">
-                                    <img src={FooterImg2} alt="social" className="inline-block mr-2  w-[150px]" />
+                                    <img src={FooterImg2} alt="social" className="inline-block mr-2 w-[150px]" />
                                 </a>
                             </li>
                             <li className="hover:text-primary cursor-pointer">
                                 <a href="https://www.linkedin.com/company/posolutions-llc/" target="_blank" className="w-full h-full">
-                                    <img src={FooterImg3} alt="social" className="inline-block ml-1 md:ml-0 md:mr-1 w-[150px]" />
+                                    <img src={FooterImg3} alt="social" className="inline-block ml-1 md:ml-0 md:mr-1  w-[150px]" />
                                 </a>
                             </li>
                         </ul>
