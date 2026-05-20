@@ -44,7 +44,7 @@ const Navbar = () => {
                                 key={link.name}
                                 to={link.href}
                                 className={({ isActive }) =>
-                                    `text-white text-sm transition-colors duration-200 ${isActive ? "text-teal-400 font-semibold" : "hover:text-teal-400"
+                                    ` text-sm transition-colors duration-200 ${isActive ? "text-teal-400 font-semibold" : "hover:text-teal-400 text-[#ffffffba] font-normal"
                                     }`
                                 }
                             >

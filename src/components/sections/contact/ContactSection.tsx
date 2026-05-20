@@ -34,12 +34,12 @@ const ContactSection = () => {
 
                         <div className="flex justify-between text-[#4A5565] text-sm mb-2 ml-0 sm:ml-[35px]">
                             <span>Monday - Thursday:</span>
-                            <span>9:00 AM - 6:00 PM</span>
+                            <span>8:00 AM - 5:00 PM</span>
                         </div>
 
                         <div className="flex justify-between text-[#4A5565] text-sm ml-0 sm:ml-[35px]">
                             <span>Friday:</span>
-                            <span>9:00 AM - 6:00 PM</span>
+                            <span>8:00 AM - 3:00 PM</span>
                         </div>
                     </div>
 

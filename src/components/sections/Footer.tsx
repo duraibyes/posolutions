@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Logo from "../../../public/images/footer_logo.png";
-import FooterImg1 from "../../../public/images/footer-1.png";
-import FooterImg2 from "../../../public/images/footer-2.png";
-import FooterImg3 from "../../../public/images/linkedin-icon.png";
+import FooterImg1 from "../../../public/images/facbook-icon.png";
+import FooterImg2 from "../../../public/images/insta-icon.png";
+import FooterImg3 from "../../../public/images/linked-in-logo.png";
 
 const Footer = () => {
 
@@ -66,20 +66,20 @@ const Footer = () => {
                     </div>
 
                     <div className="text-center sm:text-left lg:text-right">
-                        <ul className="space-y-3 text-gray-700">
+                        <ul className="space-y-8 text-gray-700">
                             <li className="hover:text-primary cursor-pointer">
                                 <a href="https://www.facebook.com/POSolutionsInc/" target="_blank">
-                                    <img src={FooterImg1} alt="social" className="inline-block mr-2" />
+                                    <img src={FooterImg1} alt="social" className="inline-block mr-2 w-[150px]" />
                                 </a>
                             </li>
                             <li className="hover:text-primary cursor-pointer">
                                 <a href="https://www.instagram.com/posolutions/" target="_blank">
-                                    <img src={FooterImg2} alt="social" className="inline-block mr-2" />
+                                    <img src={FooterImg2} alt="social" className="inline-block mr-2  w-[150px]" />
                                 </a>
                             </li>
                             <li className="hover:text-primary cursor-pointer">
                                 <a href="https://www.linkedin.com/company/posolutions-llc/" target="_blank" className="w-full h-full">
-                                    <img src={FooterImg3} alt="social" className="inline-block w-32" />
+                                    <img src={FooterImg3} alt="social" className="inline-block mr-2  w-[150px]" />
                                 </a>
                             </li>
                         </ul>
