@@ -6,73 +6,19 @@ import PrimaryButton from "../../button/PrimaryButton";
 import SecondaryRoundButton from "../../button/SecondaryRoundButton";
 import PrimaryRoundButton from "../../button/PrimaryRoundButton";
 import { Building2, Home } from "lucide-react";
+import HeroSection from "../../layout/HeroSection";
 
 const ServiceHero = () => {
     const navigate = useNavigate();
     return (
-        <section
-            className="
-            overflow-hidden
-            min-h-screen
-            bg-white
-            relative
-          "
-        >
-            <div
-                style={{
-                    background: "#0C7489",
-                    height: "845px",
-                    borderBottomRightRadius: "45%",
-                }}
-                className="
-                z-0
-                w-full
-                absolute top-0 left-0
-              "
-            />
-
-            <div
-                className="
-                z-10 flex flex-col
-                min-h-screen
-                relative
-              "
-            >
-                <div
-                    className="
-                    flex-1 flex
-                    px-4
-                    items-center justify-center
-                  "
-                >
-                    <div
-                        className="
-                        max-w-5xl
-                        mx-auto
-                        text-center
-                        mb-8
-                      "
-                    >
-                        <h1
-                            className="
-                            text-[32px] font-bold text-white leading-tight
-                            sm:text-[40px]
-                            md:text-[52px]
-                            lg:text-[64px]
-                          "
-                        >
+        <HeroSection
+            content={
+                <div className="flex-1 flex px-4 pb-10 items-center justify-center">
+                    <div className="max-w-5xl mx-auto text-center">
+                        <h1 className="text-[32px] font-bold text-white leading-tight sm:text-[40px] md:text-[52px] lg:text-[64px]">
                             Complete Property & Asset Management Solutions
                         </h1>
-
-                        <p
-                            className="
-                            max-w-3xl
-                            my-10 mx-auto
-                            text-white/90 text-sm
-                            sm:text-base
-                            md:text-lg
-                          "
-                        >
+                        <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
                             We provide end-to-end property and asset management services designed to simplify operations, improve efficiency, and maximize the value of your residential and commercial properties.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
@@ -80,9 +26,10 @@ const ServiceHero = () => {
                             <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-owner')} />
                         </div>
                     </div>
+
                 </div>
-            </div>
-            <div>
+            }
+            badgeContent={<div>
                 <div
                     className="
                     z-20
@@ -214,8 +161,9 @@ const ServiceHero = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div>}
+        />
+
     );
 }
 

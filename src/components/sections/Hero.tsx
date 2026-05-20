@@ -3,80 +3,31 @@ import HomeOwnerImage from "../../../public/images/home_owner_site.png";
 import CommercialImage from "../../../public/images/commercial_site.png";
 import PrimaryButton from "../button/PrimaryButton";
 import HeroImage from "../common/HeroImage";
+import HeroSection from "../layout/HeroSection";
 
 const Hero = () => {
 
     const navigate = useNavigate();
     return (
-        <section
-            className="
-            overflow-hidden
-            min-h-screen
-            bg-white
-            relative
-          "
-        >
-            <div
-                style={{
-                    background: "#0C7489",
-                    height: "845px",
-                    borderBottomRightRadius: "45%",
-                }}
-                className="
-                z-0
-                w-full
-                absolute top-0 left-0
-              "
-            />
-
-            <div
-                className="
-                z-10 flex flex-col
-                min-h-[500px] md:min-h-screen
-                relative
-              "
-            >
-                <div
-                    className="
-                    flex-1 flex
-                    px-4
-                    items-center justify-center
-                  "
-                >
-                    <div
-                        className="
-                        max-w-7xl
-                        mx-auto
-                        text-center
-                        mb-8
-                      "
-                    >
-                        <h1
-                            className="
-                            text-[32px] font-bold text-white leading-tight
-                            sm:text-[40px]
-                            md:text-[52px]
-                            lg:text-[64px]
-                          "
-                        >
+        <HeroSection
+            content={
+                <div className="flex-1 flex px-4 pb-10 items-center justify-center">
+                    <div className="max-w-5xl mx-auto text-center">
+                        <h1 className="text-[32px] font-bold text-white leading-tight sm:text-[40px] md:text-[52px] lg:text-[64px]">
                             Smart Property & Community Management Solutions You Can Trust
                         </h1>
-
-                        <p
-                            className="
-                            max-w-3xl
-                            my-10 mx-auto
-                            text-white/90 text-sm
-                            sm:text-base
-                            md:text-lg
-                          "
-                        >
+                        <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
                             We provide modern, reliable, and transparent property management solutions designed to simplify operations, improve communication, and help homeowners, associations, and commercial owners manage their properties with confidence.
                         </p>
+                        {/* <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
+                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/owner')} />
+                            <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-owner')} />
+                        </div> */}
                     </div>
+
                 </div>
-            </div>
-            <div>
+            }
+            badgeContent={<div>
                 <div
                     className="
                     z-20
@@ -187,14 +138,14 @@ const Hero = () => {
                                 <button
                                     onClick={() => navigate('/commercial-owner')}
                                     className="
-            w-full
-            px-6 py-2 font-semibold
-            text-lg text-[#0C7489]
-            bg-white
-            rounded-md
-            hover:bg-[#F0F0F0]
-            transition-colors duration-300
-          "
+                                        w-full
+                                        px-6 py-2 font-semibold
+                                        text-lg text-[#0C7489]
+                                        bg-white
+                                        rounded-md
+                                        hover:bg-[#F0F0F0]
+                                        transition-colors duration-300
+                                    "
                                 >
                                     Explore Our Services
                                 </button>
@@ -203,8 +154,8 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div>}
+        />
     );
 };
 
