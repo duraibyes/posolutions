@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../../public/images/footer_logo.png";
 import FooterImg1 from "../../../public/images/footer-1.png";
 import FooterImg2 from "../../../public/images/footer-2.png";
-import FooterImg3 from "../../../public/images/footer-3.png";
+import FooterImg3 from "../../../public/images/linkedin-icon.png";
 
 const Footer = () => {
 
@@ -68,13 +68,19 @@ const Footer = () => {
                     <div className="text-center sm:text-left lg:text-right">
                         <ul className="space-y-3 text-gray-700">
                             <li className="hover:text-primary cursor-pointer">
-                                <img src={FooterImg1} alt="social" className="inline-block mr-2" />
+                                <a href="https://www.facebook.com/POSolutionsInc/" target="_blank">
+                                    <img src={FooterImg1} alt="social" className="inline-block mr-2" />
+                                </a>
                             </li>
                             <li className="hover:text-primary cursor-pointer">
-                                <img src={FooterImg2} alt="social" className="inline-block mr-2" />
+                                <a href="https://www.instagram.com/posolutions/" target="_blank">
+                                    <img src={FooterImg2} alt="social" className="inline-block mr-2" />
+                                </a>
                             </li>
                             <li className="hover:text-primary cursor-pointer">
-                                <img src={FooterImg3} alt="social" className="inline-block mr-2" />
+                                <a href="https://www.linkedin.com/company/posolutions-llc/" target="_blank" className="w-full h-full">
+                                    <img src={FooterImg3} alt="social" className="inline-block w-32" />
+                                </a>
                             </li>
                         </ul>
                     </div>
