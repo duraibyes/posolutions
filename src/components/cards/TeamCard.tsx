@@ -5,7 +5,7 @@ const TeamCard = () => {
         <div className="bg-white rounded-2xl overflow-hidden
                         shadow-md hover:shadow-xl
                         transition duration-300
-                        flex flex-col">
+                        flex flex-col w-[350px]">
 
             <div className="overflow-hidden">
                 <img
@@ -13,7 +13,7 @@ const TeamCard = () => {
                     alt="Team"
                     className="
             w-full
-            h-52 sm:h-60 md:h-64
+            h-70 sm:h-75 md:h-80
             object-cover
             transition duration-300 hover:scale-105
           "
