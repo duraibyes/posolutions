@@ -1,8 +1,10 @@
 import HeroSection from '../../layout/HeroSection'
 import SecondaryRoundButton from '../../button/SecondaryRoundButton'
 import PrimaryRoundButton from '../../button/PrimaryRoundButton'
+import { useNavigate } from 'react-router-dom';
 
 const AboutHero = () => {
+    const navigate = useNavigate();
     return (
         <HeroSection
             content={
@@ -17,8 +19,8 @@ const AboutHero = () => {
                             and a client-first approach to help you grow, protect, and maximize your investments with confidence.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Residential Services" />
-                            <PrimaryRoundButton label="Commercial Services" />
+                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/owner')} />
+                            <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-owner')} />
                         </div>
                     </div>
                 </div>
