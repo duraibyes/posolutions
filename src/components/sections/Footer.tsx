@@ -79,7 +79,7 @@ const Footer = () => {
                             </li>
                             <li className="hover:text-primary cursor-pointer">
                                 <a href="https://www.linkedin.com/company/posolutions-llc/" target="_blank" className="w-full h-full">
-                                    <img src={FooterImg3} alt="social" className="inline-block mr-2  w-[150px]" />
+                                    <img src={FooterImg3} alt="social" className="inline-block ml-1 md:ml-0 md:mr-1 w-[150px]" />
                                 </a>
                             </li>
                         </ul>
