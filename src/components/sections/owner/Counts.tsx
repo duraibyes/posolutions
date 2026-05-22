@@ -9,8 +9,8 @@ const Counts = () => {
             items-center justify-around
             md:px-4
             xl:px-2
-            py-16
-            my-16
+            py-8 md:py-16
+            my-6 md:my-16
           "
         >
             <div

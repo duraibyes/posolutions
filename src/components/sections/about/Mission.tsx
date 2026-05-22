@@ -4,7 +4,7 @@ import MissionImg3 from "../../../../public/images/about/mission-3.png";
 
 const Mission = () => {
     return (
-        <section className="max-w-7xl mx-auto px-4 md:px-4 xl:px-2 py-6 my-16 flex flex-col items-center justify-center">
+        <section className="max-w-7xl mx-auto px-4 md:px-4 xl:px-2 py-4 md:py-6 my-4 md:my-16 flex flex-col items-center justify-center">
 
             <div className="grid 
     grid-cols-1 
