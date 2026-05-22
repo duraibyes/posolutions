@@ -22,7 +22,7 @@ const AskedQuestions = () => {
                     </div>
                 ))}
             </div>
-            <div className="bg-[#0C748933] p-6 rounded-2xl hover:shadow-md transition duration-300 my-12">
+            <div className="bg-[#0C748933] p-6 rounded-2xl hover:shadow-md transition duration-300 my-4 md:my-12">
                 <div className="flex items-center gap-3 mb-4">
                     <h3 className="font-semibold text-[#0A0A0A]">
                         Need Immediate Assistance?
