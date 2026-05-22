@@ -13,8 +13,8 @@ const Certificate = () => {
             items-center justify-center
             md:px-4
             xl:px-2
-            py-16
-            my-16
+            py-6 md:py-16
+            my-6 md:my-16
           "
         >
             <div>

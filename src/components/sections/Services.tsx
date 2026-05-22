@@ -4,7 +4,7 @@ import ServiceCard from "../cards/ServiceCard"
 const Services = () => {
     const navigate = useNavigate();
     return (
-        <section className="max-w-7xl mx-auto px-4 py-12 my-12">
+        <section className="max-w-7xl mx-auto px-4 py-6 md:py-12 my-4 md:my-12">
 
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] mb-10 gap-4">
                 <div>

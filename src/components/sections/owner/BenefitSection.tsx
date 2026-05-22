@@ -6,7 +6,7 @@ import ImageWithSkeleton from "../../common/ImageWithSkeleton";
 const BenefitSection = () => {
     const navigate = useNavigate();
     return (
-        <section className="max-w-7xl mx-auto px-4 py-12 my-12">
+        <section className="max-w-7xl mx-auto px-4 py-6 md:py-12 my-6 md:my-12">
             <div className="grid grid-cols-1 sm:grid-cols-2  gap-6 items-center">
                 <div className="w-full">
 
