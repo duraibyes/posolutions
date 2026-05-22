@@ -17,8 +17,8 @@ const ProposalHero = () => {
                             Share your property goals and requirements with us, and our team will craft a tailored management solution designed to maximize value, improve efficiency, and deliver long-term results.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/owner')} />
-                            <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/residential-services')} />
+                            <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>
                 </div>

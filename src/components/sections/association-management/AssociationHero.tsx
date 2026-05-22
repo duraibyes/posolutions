@@ -18,7 +18,7 @@ const AssociationHero = () => {
                             financial oversight, and compliance—so your community runs smoothly and efficiently.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Start Managing Your Community" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Start Managing Your Community" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>
                 </div>

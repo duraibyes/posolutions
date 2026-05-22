@@ -18,7 +18,7 @@ const AssetHero = () => {
                             and hands-on expertise to ensure your portfolio operates at its full potential.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Get Started" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Get Started with Commercial Services" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>
                 </div>

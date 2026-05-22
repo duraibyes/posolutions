@@ -22,8 +22,8 @@ const ServiceHero = () => {
                             We provide end-to-end property and asset management services designed to simplify operations, improve efficiency, and maximize the value of your residential and commercial properties.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/owner')} />
-                            <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/residential-services')} />
+                            <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>
 
@@ -91,7 +91,7 @@ const ServiceHero = () => {
 
                                 {/* BUTTON */}
 
-                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/owner')} />
+                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/residential-services')} />
 
                             </div>
                         </div>
@@ -141,7 +141,7 @@ const ServiceHero = () => {
                                 {/* BUTTON */}
 
                                 <button
-                                    onClick={() => navigate("/commercial-owner")}
+                                    onClick={() => navigate("/commercial-services")}
                                     className="
                             mt-auto
                             w-full

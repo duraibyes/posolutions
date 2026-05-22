@@ -20,7 +20,7 @@ const BenefitSection = () => {
 
                     {/* SMALL TITLE */}
                     <p className="text-sm font-semibold text-teal-600 uppercase tracking-wide mb-3">
-                        Why Homeowners Choose Us
+                        Residential Services You Can Rely On
                     </p>
 
                     {/* MAIN TITLE */}

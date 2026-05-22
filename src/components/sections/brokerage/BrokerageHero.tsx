@@ -18,7 +18,7 @@ const BrokerageHero = () => {
                             opportunities, negotiate effectively, and maximize the value of every transaction.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Start Your Real Estate Journey" onClick={() => navigate('/commercial-owner')} />
+                            <SecondaryRoundButton label="Start Your Real Estate Journey" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>
                 </div>

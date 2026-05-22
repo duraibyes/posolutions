@@ -6,10 +6,10 @@ const CommercialServices = () => {
     return (
         <section className="max-w-7xl mx-auto px-4 py-12 my-12">
 
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-10 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] mb-10 gap-4">
                 <div>
                     <p className="text-sm text-[#0E6E8B] font-semibold tracking-wide uppercase">
-                        Community Services
+                        Commercial Services
                     </p>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0F172A] mt-2">
                         End-to-End Solutions for Commercial Property Management

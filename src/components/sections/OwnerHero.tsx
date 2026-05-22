@@ -19,7 +19,7 @@ const OwnerHero = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
                             <SecondaryRoundButton label="Homeowner Login" onClick={() => window.open("https://prosol.cincwebaxis.com/", "_blank")} />
-                            <PrimaryRoundButton label="Explore Community Solutions" onClick={() => navigate('/commercial-owner')} />
+                            <PrimaryRoundButton label="Explore Community Solutions" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>
                 </div>
