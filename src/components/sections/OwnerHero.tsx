@@ -1,9 +1,7 @@
-import { useNavigate } from "react-router-dom"
 import SecondaryRoundButton from "../button/SecondaryRoundButton"
 import HeroSection from "../layout/HeroSection"
 
 const OwnerHero = () => {
-    const navigate = useNavigate();
     return (
         <HeroSection
             content={
