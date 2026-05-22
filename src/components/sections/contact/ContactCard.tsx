@@ -4,7 +4,7 @@ import ContactImg3 from "../../../../public/images/contact/contact-3.png";
 
 const ContactCard = () => {
     return (
-        <section className="max-w-7xl mx-auto px-4 md:px-4 xl:px-2 py-6 my-16 flex flex-col items-center justify-center">
+        <section className="max-w-7xl mx-auto px-4 md:px-4 xl:px-2 py-4 md:py-6 my-6 md:my-16 flex flex-col items-center justify-center">
             <div className='mb-4'>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-[#0C0047]">
                     Contact Us
@@ -15,7 +15,7 @@ const ContactCard = () => {
     sm:grid-cols-2 
     lg:grid-cols-3
     gap-8 
-    mt-10">
+    mt-4 md:mt-10">
                 <div className="flex flex-col items-start justify-center bg-[#F9FAFB] p-6 rounded-lg gap-2 hover:shadow-md" >
                     <img src={ContactImg1} alt="Proven Results" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4"> Phone </p>

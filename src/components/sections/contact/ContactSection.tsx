@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 const ContactSection = () => {
     return (
-        <section className=" py-16 px-4 sm:px-6 lg:px-8">
+        <section className="py-6 md:py-16 px-4 sm:px-6 lg:px-8">
 
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
 
@@ -17,7 +17,7 @@ const ContactSection = () => {
                 </div>
 
                 {/* RIGHT - INFO */}
-                <div className="space-y-6 mt-16 lg:mt-0">
+                <div className="space-y-6 mt-8 md:mt-16 lg:mt-0">
 
                     <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
                         Office Hours
