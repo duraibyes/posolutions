@@ -37,6 +37,8 @@ const Navbar = () => {
         { name: 'Contact', href: '/contact' },
     ];
 
+    const currentPage = currentService?.name || navLinks.find(page => page.href === location.pathname)?.name;
+
     return (
         <nav
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/70 backdrop-blur-sm' : 'bg-transparent'
@@ -130,13 +132,44 @@ const Navbar = () => {
                             Homeowner Login
                         </button>
                     </div>
+                    <div className='flex md:hidden flex-row items-center justify-end gap-2'>
+                        <div
+                            className=" 
+                                            flex items-center gap-2
+                                            px-2.5 py-1.5
+                                            rounded-full
+                                            border border-teal-400/40
+                                            bg-white/5
+                                            backdrop-blur-md
+                                            shadow-[0_0_20px_rgba(45,212,191,0.08)]
+                                            transition-all duration-300
+                                            max-w-[120px] sm:max-w-[150px] shrink
+                                        "
+                        >
+                            {/* Active Dot */}
+                            <span className="relative flex h-2 w-2 shrink-0">
+                                <span className="absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75 animate-ping"></span>
+                                <span className="relative inline-flex rounded-full h-2 w-2 bg-teal-300"></span>
+                            </span>
 
-                    <button
-                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                        className="md:hidden text-white p-2"
-                    >
-                        {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-                    </button>
+                            {/* Page Name */}
+                            <span
+                                className="
+                text-white text-xs font-medium
+                truncate whitespace-nowrap
+            "
+                            >
+                                {currentPage}
+                            </span>
+                        </div>
+                        <button
+                            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                            className="md:hidden text-white p-2 "
+                        >
+                            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                        </button>
+                    </div>
+
                 </div>
             </div>
 
