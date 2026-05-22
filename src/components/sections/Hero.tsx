@@ -88,7 +88,7 @@ const Hero = () => {
                                 with your community — all in one place.
                             </p>
                             <div className="mb-4 w-full">
-                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/owner')} />
+                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/residential-services')} />
                             </div>
                         </div>
 
@@ -136,7 +136,7 @@ const Hero = () => {
                             <div className="mb-4 w-full text-center">
 
                                 <button
-                                    onClick={() => navigate('/commercial-owner')}
+                                    onClick={() => navigate('/commercial-services')}
                                     className="
                                         w-full
                                         px-6 py-2 font-semibold
