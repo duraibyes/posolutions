@@ -10,12 +10,12 @@ const HeroSection = ({
 }: HeroSectionProps) => {
     return (
         <>
-            <section className="relative overflow-hidden bg-white min-h-[90vh] sm:min-h-screen">
+            <section className="relative overflow-hidden bg-white min-h-[80vh] sm:min-h-screen">
 
                 {/* BACKGROUND */}
                 <div className="absolute top-0 left-0 w-full
           h-[700px] sm:h-[650px] md:h-[750px] lg:h-[850px]
-          bg-[#0C7489] z-0 min-h-[90vh] sm:min-h-screen" />
+          bg-[#0C7489] z-0 min-h-[80vh] sm:min-h-screen" />
 
                 {/* CURVE */}
                 <div className="absolute bottom-0 left-0 w-full z-0">
@@ -33,7 +33,7 @@ const HeroSection = ({
 
                 {/* CONTENT */}
                 <div className="relative z-10 flex flex-col
-          min-h-[90vh] sm:min-h-screen
+          min-h-[80vh] sm:min-h-screen
           px-4 sm:px-6 lg:px-8
           pt-24 sm:pt-28 md:pt-32
           pb-24 sm:pb-28 md:pb-32   ">

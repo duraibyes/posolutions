@@ -8,7 +8,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const Testimonial = () => {
     return (
-        <section className="max-w-7xl mx-auto px-4 py-12">
+        <section className="max-w-7xl mx-auto px-4 py-8 md:py-12">
 
             {/* HEADER */}
             <div className="flex justify-between items-center mb-10">

@@ -14,15 +14,11 @@ const Hero = () => {
                 <div className="flex-1 flex px-4 pb-10 items-center justify-center">
                     <div className="max-w-5xl mx-auto text-center">
                         <h1 className="text-[32px] font-bold text-white leading-tight sm:text-[40px] md:text-[52px] lg:text-[64px]">
-                            Smart Property & Community Management Solutions You Can Trust
+                            Smart Residential & Commercial Management Solutions You Can Rely On
                         </h1>
                         <p className="max-w-3xl mt-10 mx-auto text-white/90 text-sm sm:text-base md:text-lg">
                             We provide modern, reliable, and transparent property management solutions designed to simplify operations, improve communication, and help homeowners, associations, and commercial owners manage their properties with confidence.
                         </p>
-                        {/* <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/owner')} />
-                            <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-owner')} />
-                        </div> */}
                     </div>
 
                 </div>
@@ -31,8 +27,8 @@ const Hero = () => {
                 <div
                     className="
                     z-20
-                    px-4 pb-16
-                    sm:mt-0 md:-mt-40 relative
+                    px-4 pb-4 md:pb-16
+                    sm:-mt-30 md:-mt-40 relative
                   "
                 >
                     <div
@@ -43,17 +39,17 @@ const Hero = () => {
                         mx-auto
                         sm:gap-4 md:gap-0
                         md:grid-cols-2
-                        mt-4 md:mt-0
+                        my-4 md:mt-0
                       "
                     >
                         {/* LEFT CARD */}
                         <div
                             className="
                             flex flex-col
-                            p-8
+                            p-4 md:p-8 mb-4 md:mb-0
                             bg-white
                             rounded-2xl
-                            shadow-md
+                            shadow-lg
                             
                             items-center justify-center /* Mobile */ /* Desktop */
                             md:rounded-none md:rounded-l-2xl md:border md:border-white md:border-r-0 md:shadow-lg
@@ -96,7 +92,7 @@ const Hero = () => {
                         <div
                             className="
                             p-8
-                            bg-[#0C7489]
+                            sm:bg-white md:bg-[#0C7489]
                             rounded-2xl
                             flex flex-col  items-center justify-center
                             shadow-2xl shadow-md
@@ -107,7 +103,7 @@ const Hero = () => {
                             <h2
                                 className="
                                 mb-4
-                                text-2xl font-bold text-white
+                                text-2xl font-bold text-[#0C7489] md:text-white
                               "
                             >
                                 Commercial Owners
@@ -123,7 +119,7 @@ const Hero = () => {
                                 className="
                                 mb-6
                                 my-2
-                                text-white/90
+                                text-[#969696] md:text-white/90
                                 md:h-[130px]
                                 lg:h-[120px]
                               "
@@ -140,8 +136,8 @@ const Hero = () => {
                                     className="
                                         w-full
                                         px-6 py-2 font-semibold
-                                        text-lg text-[#0C7489]
-                                        bg-white
+                                        text-lg text-white md:text-[#0C7489]
+                                        bg-[#0C7489] md:bg-white
                                         rounded-md
                                         hover:bg-[#F0F0F0]
                                         transition-colors duration-300

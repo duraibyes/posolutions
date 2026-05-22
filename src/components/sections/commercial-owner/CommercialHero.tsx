@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom"
 import PrimaryRoundButton from "../../button/PrimaryRoundButton"
-import SecondaryRoundButton from "../../button/SecondaryRoundButton"
 import HeroSection from "../../layout/HeroSection"
 
 const CommercialHero = () => {
@@ -18,7 +17,6 @@ const CommercialHero = () => {
                             and maximize asset performance through reliable, professional management solutions.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Explore Services" onClick={() => navigate('/services')} />
                             <PrimaryRoundButton label="Request a Consultation" onClick={() => navigate('/request-proposal')} />
                         </div>
                     </div>
