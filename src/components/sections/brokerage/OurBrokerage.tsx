@@ -51,12 +51,12 @@ const features: Feature[] = [
 
 const OurBrokerage = () => {
     return (
-        <section className=" py-16 px-4 sm:px-6 lg:px-8">
+        <section className="py-8 md:py-16 px-4 sm:px-6 lg:px-8">
 
             <div className="max-w-7xl mx-auto">
 
                 {/* TITLE */}
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-6 md:mb-12">
                     Comprehensive Brokerage Services
                 </h2>
 

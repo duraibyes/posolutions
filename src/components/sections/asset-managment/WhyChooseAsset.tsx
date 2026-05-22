@@ -4,9 +4,9 @@ import chooseImg3 from "../../../../public/images/asset-managment/asset-choose-3
 
 const WhyChooseAsset = () => {
     return (
-        <section className="max-w-7xl mx-auto px-4 md:px-4 xl:px-2 py-6 my-16 flex flex-col items-center justify-center">
+        <section className="max-w-7xl mx-auto px-4 md:px-4 xl:px-2 py-6 my-6 md:my-16 flex flex-col items-center justify-center">
             <div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-[#0C0047]">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4 md:mb-8 text-[#0C0047]">
                     Why Choose POSolutions
                 </h2>
             </div>

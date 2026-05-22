@@ -199,7 +199,7 @@ const Navbar = () => {
                                     }`}
                             >
                                 <span>
-                                    {currentService?.name || "Services"}
+                                    {isServicesOpen ? "Services" : currentService?.name || "Services"}
                                 </span>
 
                                 {isServicesOpen ? (
@@ -218,7 +218,7 @@ const Navbar = () => {
                                             to={service.href}
                                             onClick={() => {
                                                 setIsMobileMenuOpen(false);
-                                                setIsServicesOpen(false);
+                                                setIsServicesOpen(true);
                                             }}
                                             className={`block py-2 text-sm transition-colors ${location.pathname === service.href
                                                 ? "text-teal-400 font-semibold"
