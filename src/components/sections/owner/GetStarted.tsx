@@ -4,7 +4,7 @@ import SecondaryButton from "../../button/SecondaryButton"
 const GetStarted = () => {
     const navigate = useNavigate();
     return (
-        <section className="max-w-5xl mx-auto px-4 py-12 my-12">
+        <section className="max-w-5xl mx-auto px-4 py-6 md:py-12 my-4 md:my-12">
             <div className="flex flex-col gap-10 items-center justify-center bg-primary rounded-xl p-12" >
                 <h2 className="text-2xl sm:text-3xl md:text-4xl  font-bold text-center text-white">
                     Ready to Simplify Your Community Management?

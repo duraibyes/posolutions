@@ -13,7 +13,7 @@ const ServiceHero = () => {
     return (
         <HeroSection
             content={
-                <div className="flex-1 flex px-4 pb-10 items-center justify-center">
+                <div className="flex-1 flex px-4 pb-4 md:pb-10 items-center justify-center">
                     <div className="max-w-5xl mx-auto text-center">
                         <h1 className="text-[32px] font-bold text-white leading-tight sm:text-[40px] md:text-[52px] lg:text-[64px]">
                             Complete Property & Asset Management Solutions

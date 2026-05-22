@@ -6,7 +6,7 @@ import OurServicesImg from "../../../../public/images/services/asset_service.png
 const AssetService = () => {
     const navigate = useNavigate();
     return (
-        <section className="max-w-7xl mx-auto px-4 py-12 my-12">
+        <section className="max-w-7xl mx-auto px-4 py-12 my-4 md:my-12">
 
             <div className="grid grid-cols-1 sm:grid-cols-2 mt-2 gap-8 items-center">
 
