@@ -37,7 +37,7 @@ const Navbar = () => {
         { name: 'Contact', href: '/contact' },
     ];
 
-    const currentPage = currentService?.name || navLinks.find(page => page.href === location.pathname)?.name;
+    const currentPage = currentService?.name || navLinks.find(page => page.href === location.pathname)?.name || "Request Proposal";
 
     return (
         <nav
