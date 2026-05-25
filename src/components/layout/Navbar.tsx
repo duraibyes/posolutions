@@ -119,7 +119,7 @@ const Navbar = () => {
                         })}
                     </div>
 
-                    <div className="hidden md:flex items-center gap-4">
+                    <div className="hidden lg:flex items-center gap-4">
                         <button
                             onClick={() => navigate('request-proposal')}
                             className="w-full text-sm px-4 py-2 border border-white text-white rounded-md hover:bg-white hover:text-teal-600 transition font-medium whitespace-nowrap">
@@ -132,7 +132,7 @@ const Navbar = () => {
                             Homeowner Login
                         </button>
                     </div>
-                    <div className='flex md:hidden flex-row items-center justify-end gap-2'>
+                    <div className='flex lg:hidden flex-row items-center justify-end gap-2'>
                         <div
                             className=" 
                                             flex items-center gap-2
@@ -164,7 +164,7 @@ const Navbar = () => {
                         </div>
                         <button
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                            className="md:hidden text-white p-2 "
+                            className="lg:hidden text-white p-2 "
                         >
                             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
                         </button>
@@ -174,7 +174,7 @@ const Navbar = () => {
             </div>
 
             {isMobileMenuOpen && (
-                <div className="md:hidden bg-black/95 backdrop-blur-md">
+                <div className="lg:hidden bg-black/95 backdrop-blur-md">
                     <div className="px-4 pt-2 pb-6 space-y-2">
 
                         {/* HOME */}
