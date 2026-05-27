@@ -19,7 +19,7 @@ const AboutHero = () => {
                             and a client-first approach to help you grow, protect, and maximize your investments with confidence.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-4 md:mb-8 py-4 md:py-10 ">
-                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/residential-services')} />
+                            <SecondaryRoundButton label="Association Management" onClick={() => navigate('/association-management')} />
                             <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>

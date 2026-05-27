@@ -5,12 +5,10 @@ import { ChevronDown, ChevronUp, Menu, X } from 'lucide-react';
 import Logo from "../../../public/images/logo_nav_1.png";
 const servicePages = [
     { name: "Services", href: "/services" },
-    { name: "Residential Services", href: "/residential-services" },
     { name: "Commercial Services", href: "/commercial-services" },
     { name: "Association Management", href: "/association-management" },
     { name: "Financial Recovery", href: "/financial-recovery-services" },
     { name: "Real Estate Brokerage", href: "/real-estate-brokerage" },
-    { name: "Asset Management", href: "/asset-management" },
 ];
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -84,17 +82,19 @@ const Navbar = () => {
                                         {open && (
                                             <div className="absolute top-full left-0  w-72 rounded-2xl bg-white shadow-2xl border border-gray-100 py-2 z-50">
                                                 {servicePages.map((item) => (
-                                                    <Link
-                                                        key={item.href}
-                                                        to={item.href}
-                                                        className={`block px-5 py-3 text-sm transition-colors ${location.pathname === item.href
-                                                            ? "bg-teal-50 text-teal-600 font-semibold"
-                                                            : "text-gray-700 hover:bg-gray-50"
-                                                            }`}
-                                                    >
-                                                        {item.name}
-                                                    </Link>
-                                                ))}
+
+                                                    currentService?.name === "Services" && item.name === "Services" ? null : (
+                                                        <Link
+                                                            key={item.href}
+                                                            to={item.href}
+                                                            className={`block px-5 py-3 text-sm transition-colors ${location.pathname === item.href
+                                                                ? "bg-teal-50 text-teal-600 font-semibold"
+                                                                : "text-gray-700 hover:bg-gray-50"
+                                                                }`}
+                                                        >
+                                                            {item.name}
+                                                        </Link>
+                                                    )))}
                                             </div>
                                         )}
                                     </div>
@@ -225,7 +225,7 @@ const Navbar = () => {
                                                 : "text-[#ffffffba] hover:text-teal-400"
                                                 }`}
                                         >
-                                            {service.name}
+                                            {service.name === "Services" ? "All Services" : service.name}
                                         </Link>
                                     ))}
                                 </div>

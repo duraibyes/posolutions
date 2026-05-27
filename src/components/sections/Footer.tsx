@@ -42,11 +42,6 @@ const Footer = () => {
                                     Real Estate Brokerage Services
                                 </Link>
                             </li>
-                            <li>
-                                <Link to="/asset-management" className="hover:text-primary block">
-                                    Asset Management
-                                </Link>
-                            </li>
                         </ul>
                     </div>
 
@@ -62,6 +57,14 @@ const Footer = () => {
                                 MEETINGS BY APPOINTMENT ONLY
                             </li>
                             <li>+1 678-715-1430</li>
+                            <li>
+                                <a
+                                    href="mailto:info@posolutions.net"
+                                    className="hover:text-primary transition"
+                                >
+                                    info@posolutions.net
+                                </a>
+                            </li>
                         </ul>
                     </div>
 

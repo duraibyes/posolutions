@@ -22,7 +22,7 @@ const ServiceHero = () => {
                             We provide end-to-end property and asset management services designed to simplify operations, improve efficiency, and maximize the value of your residential and commercial properties.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4 my-4 mb-8 py-8 md:py-10 ">
-                            <SecondaryRoundButton label="Residential Services" onClick={() => navigate('/residential-services')} />
+                            <SecondaryRoundButton label="Association Management" onClick={() => navigate('/association-management')} />
                             <PrimaryRoundButton label="Commercial Services" onClick={() => navigate('/commercial-services')} />
                         </div>
                     </div>
@@ -63,13 +63,13 @@ const ServiceHero = () => {
                                 <div className="flex items-center gap-3 mb-3 h-10">
                                     <Home className="text-[#0C7489]" />
                                     <h3 className="text-xl font-semibold text-gray-900">
-                                        Residential Property Management
+                                        Association Management
                                     </h3>
                                 </div>
 
                                 {/* DESCRIPTION */}
                                 <p className="text-[#4A5565] text-sm sm:text-base mb-4">
-                                    Professional management services designed for homeowners and residential communities — ensuring smooth operations,
+                                    Professional management services designed for association boards and residential communities — ensuring smooth operations,
                                     better communication, and long-term property value.
                                 </p>
 
@@ -91,7 +91,7 @@ const ServiceHero = () => {
 
                                 {/* BUTTON */}
 
-                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/residential-services')} />
+                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/association-management')} />
 
                             </div>
                         </div>

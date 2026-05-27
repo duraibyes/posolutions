@@ -3,6 +3,8 @@ import AssociationServices from "../sections/association-management/AssociationS
 import EnhanceCommunity from "../sections/association-management/EnhanceCommunity"
 import ExpertCommunity from "../sections/association-management/ExpertCommunity"
 import WhyChooseAssociation from "../sections/association-management/WhyChooseAssociation"
+import BenefitSection from "../sections/owner/BenefitSection"
+import Services from "../sections/Services"
 
 const AssociationManagement = () => {
     return (
@@ -10,6 +12,8 @@ const AssociationManagement = () => {
             <AssociationHero />
             <ExpertCommunity />
             <AssociationServices />
+            <Services />
+            <BenefitSection />
             <WhyChooseAssociation />
             <EnhanceCommunity />
         </div>

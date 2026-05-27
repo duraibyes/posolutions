@@ -14,9 +14,7 @@ const Team = () => {
                       "
             >
                 <TeamCard />
-                {/* <TeamCard />
-                <TeamCard />
-                <TeamCard /> */}
+
             </div>
         </section >
     )

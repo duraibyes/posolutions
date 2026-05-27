@@ -61,7 +61,7 @@ const Hero = () => {
                                 text-2xl font-bold text-[#0C7489]
                               "
                             >
-                                Homeowners
+                                Association Management
                             </h2>
 
                             <HeroImage
@@ -84,7 +84,7 @@ const Hero = () => {
                                 with your community — all in one place.
                             </p>
                             <div className="mb-4 w-full">
-                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/residential-services')} />
+                                <PrimaryButton label="Explore Our Services" onClick={() => navigate('/association-management')} />
                             </div>
                         </div>
 

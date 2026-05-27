@@ -60,7 +60,7 @@ const PortfolioFeatures = () => {
             <div className="max-w-7xl mx-auto">
 
                 {/* TITLE */}
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-6 md:mb-12">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-6 md:mb-12">
                     Comprehensive Asset Management Solutions
                 </h2>
 

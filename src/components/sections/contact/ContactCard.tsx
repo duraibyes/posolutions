@@ -26,7 +26,7 @@ const ContactCard = () => {
                     <img src={ContactImg2} alt="Secure & Reliable" className="hover:brightness-50 transition duration-300" />
                     <p className="text-[#0A0A0A] text-center font-bold mt-4">Email </p>
                     <p className="text-[#4A5565]  mt-2"> Send us an email anytime </p>
-                    <p className="text-[#0C7489] font-bold">shan@posolutions.net</p>
+                    <p className="text-[#0C7489] font-bold">info@posolutions.net</p>
                 </div>
                 <div className="flex flex-col items-start justify-center bg-[#F9FAFB] p-6 rounded-lg gap-2 hover:shadow-md " >
                     <img src={ContactImg3} alt="Expert Team" className="hover:brightness-50 transition duration-300" />

@@ -1,3 +1,4 @@
+import PortfolioFeatures from "../sections/asset-managment/PortfolioFeatures"
 import Certificate from "../sections/commercial-owner/Certificate"
 import CommercialBenefitSection from "../sections/commercial-owner/CommercialBenefitSection"
 import CommercialHero from "../sections/commercial-owner/CommercialHero"
@@ -12,6 +13,7 @@ const CommercialOwner = () => {
         <div>
             <CommercialHero />
             <CommercialServices />
+            <PortfolioFeatures />
             <Designations />
             <Certificate />
             <CommercialBenefitSection />
