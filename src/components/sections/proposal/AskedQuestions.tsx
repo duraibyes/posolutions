@@ -25,14 +25,14 @@ const AskedQuestions = () => {
             <div className="bg-[#0C748933] p-6 rounded-2xl hover:shadow-md transition duration-300 my-4 md:my-12">
                 <div className="flex items-center gap-3 mb-4">
                     <h3 className="font-semibold text-[#0A0A0A]">
-                        Need Immediate Assistance?
+                        Need More Assistance?
                     </h3>
                 </div>
                 <div className="flex justify-between text-[#4A5565] text-sm mb-4">
                     For urgent matters, please call our 24/7 emergency line:
                 </div>
                 <div className="flex justify-between text-[#0C7489] text-lg font-semibold">
-                    +1 678-715-1430
+                    678-715-1430
                 </div>
             </div>
         </div>

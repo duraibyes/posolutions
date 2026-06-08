@@ -112,7 +112,7 @@ const ContactForm = () => {
                     name="phone"
                     value={form.phone}
                     onChange={handleChange}
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="(555) 123-4567"
                     className="w-full px-4 py-3 rounded-xl border border-gray-200  focus:outline-none focus:ring-2 focus:ring-[#0C7489]"
 
                 />

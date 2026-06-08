@@ -119,7 +119,7 @@ const ProposalForm = () => {
                 <Input name="fullName" label="Full Name *" placeholder="John Doe" onChange={handleChange} value={form.fullName} error={errors.fullName} />
                 <Input name="businessName" label="Business Name *" placeholder="ABC LLC" onChange={handleChange} value={form.businessName} error={errors.businessName} />
                 <Input name="email" label="Email Address *" placeholder="john@example.com" onChange={handleChange} value={form.email} error={errors.email} />
-                <Input name="phone" label="Phone Number *" placeholder="+1 (555) 123-4567" onChange={handleChange} value={form.phone} error={errors.phone} />
+                <Input name="phone" label="Phone Number *" placeholder="(555) 123-4567" onChange={handleChange} value={form.phone} error={errors.phone} />
                 <div>
                     <label className="block text-sm font-medium mb-2">
                         Full Address

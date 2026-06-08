@@ -46,7 +46,7 @@ const ContactSection = () => {
                     {/* EMERGENCY */}
                     <div className="bg-[#BFD3D8] p-6 rounded-2xl hover:shadow-md transition duration-300">
                         <h3 className="font-semibold text-[#0A0A0A] mb-2">
-                            Need Immediate Assistance?
+                            Need More Assistance?
                         </h3>
 
                         <p className="text-[#4A5565] text-sm mb-3">
@@ -54,7 +54,7 @@ const ContactSection = () => {
                         </p>
 
                         <p className="text-[#0C7489] font-bold text-lg">
-                            +1 678-715-1430
+                            678-715-1430
                         </p>
                     </div>
 

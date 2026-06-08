@@ -33,6 +33,11 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
+                                <Link to="/commercial-services" className="hover:text-primary block">
+                                    Commercial Services
+                                </Link>
+                            </li>
+                            <li>
                                 <Link to="/financial-recovery-services" className="hover:text-primary block">
                                     Financial Recovery
                                 </Link>
@@ -56,7 +61,7 @@ const Footer = () => {
                             <li className="font-semibold text-gray-800 pt-4">
                                 MEETINGS BY APPOINTMENT ONLY
                             </li>
-                            <li>+1 678-715-1430</li>
+                            <li>678-715-1430</li>
                             <li>
                                 <a
                                     href="mailto:info@posolutions.net"

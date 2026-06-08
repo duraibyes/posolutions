@@ -82,19 +82,17 @@ const Navbar = () => {
                                         {open && (
                                             <div className="absolute top-full left-0  w-72 rounded-2xl bg-white shadow-2xl border border-gray-100 py-2 z-50">
                                                 {servicePages.map((item) => (
-
-                                                    currentService?.name === "Services" && item.name === "Services" ? null : (
-                                                        <Link
-                                                            key={item.href}
-                                                            to={item.href}
-                                                            className={`block px-5 py-3 text-sm transition-colors ${location.pathname === item.href
-                                                                ? "bg-teal-50 text-teal-600 font-semibold"
-                                                                : "text-gray-700 hover:bg-gray-50"
-                                                                }`}
-                                                        >
-                                                            {item.name}
-                                                        </Link>
-                                                    )))}
+                                                    <Link
+                                                        key={item.href}
+                                                        to={item.href}
+                                                        className={`block px-5 py-3 text-sm transition-colors ${location.pathname === item.href
+                                                            ? "bg-teal-50 text-teal-600 font-semibold"
+                                                            : "text-gray-700 hover:bg-gray-50"
+                                                            }`}
+                                                    >
+                                                        {item.name}
+                                                    </Link>
+                                                ))}
                                             </div>
                                         )}
                                     </div>
