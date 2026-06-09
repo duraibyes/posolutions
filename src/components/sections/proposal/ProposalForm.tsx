@@ -18,6 +18,7 @@ const ProposalForm = () => {
         email: "",
         phone: "",
         address: "",
+        fullAddress: "",
         contactMethod: "",
         associationName: "",
         managementCompany: "",
@@ -26,6 +27,7 @@ const ProposalForm = () => {
         inquireService: "",
         additionalInfo: "",
         currentContract: "",
+        date: null,
     })
 
     const [errors, setErrors] = useState<any>({});
@@ -90,7 +92,10 @@ const ProposalForm = () => {
                     inquireService: "",
                     additionalInfo: "",
                     currentContract: "",
+                    fullAddress: "",
+                    date: null,
                 })
+                setDate(null);
                 setLoading(false);
             })
             .catch(() => {
@@ -129,6 +134,7 @@ const ProposalForm = () => {
                         placeholder="No 12A, Park Street..."
                         className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#0C7489] resize-none h-22"
                         onChange={handleChange}
+                        value={form.fullAddress}
                     ></textarea>
                 </div>
 
@@ -156,11 +162,11 @@ const ProposalForm = () => {
                             onChange={(date: Date | null) => setDate(date)}
                             placeholderText="MM/DD/YYYY"
                             className="
-        w-full px-4 py-3 pr-10
-        rounded-xl border border-gray-200
-       
-        focus:outline-none focus:ring-2 focus:ring-[#0C7489]
-      "
+                                        w-full px-4 py-3 pr-10
+                                        rounded-xl border border-gray-200
+                                    
+                                        focus:outline-none focus:ring-2 focus:ring-[#0C7489]
+                                    "
                             wrapperClassName="w-full"
                         />
 
